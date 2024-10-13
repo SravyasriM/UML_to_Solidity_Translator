@@ -1,0 +1,16 @@
+{
+  "argumentTypes": null,
+  "baseExpression": null,
+  "id": null,
+  "indexExpression": null,
+  "isConstant": null,
+  "isLValue": null,
+  "isPure": null,
+  "lValueRequested": null,
+  "nodeType": "IndexAccess",
+  "src": null,
+  "typeDescriptions": {
+    "typeIdentifier": null,
+    "typeString": null
+  }
+}

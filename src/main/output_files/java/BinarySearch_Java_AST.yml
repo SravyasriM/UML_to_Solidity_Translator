@@ -1,0 +1,167 @@
+---
+root(Type=CompilationUnit):
+  types:
+    - type(Type=ClassOrInterfaceDeclaration):
+        isInterface: "false"
+        name(Type=SimpleName):
+          identifier: "BinarySearch"
+        members:
+          - member(Type=MethodDeclaration):
+              body(Type=BlockStmt):
+                statements:
+                  - statement(Type=ExpressionStmt):
+                      expression(Type=VariableDeclarationExpr):
+                        variables:
+                          - variable(Type=VariableDeclarator):
+                              initializer(Type=BinaryExpr):
+                                operator: "MINUS"
+                                left(Type=FieldAccessExpr):
+                                  name(Type=SimpleName):
+                                    identifier: "length"
+                                  scope(Type=NameExpr):
+                                    name(Type=SimpleName):
+                                      identifier: "arr"
+                                right(Type=IntegerLiteralExpr):
+                                  value: "1"
+                              name(Type=SimpleName):
+                                identifier: "high"
+                              type(Type=PrimitiveType):
+                                type: "INT"
+                  - statement(Type=ExpressionStmt):
+                      expression(Type=VariableDeclarationExpr):
+                        variables:
+                          - variable(Type=VariableDeclarator):
+                              initializer(Type=IntegerLiteralExpr):
+                                value: "0"
+                              name(Type=SimpleName):
+                                identifier: "low"
+                              type(Type=PrimitiveType):
+                                type: "INT"
+                  - statement(Type=ExpressionStmt):
+                      expression(Type=VariableDeclarationExpr):
+                        variables:
+                          - variable(Type=VariableDeclarator):
+                              name(Type=SimpleName):
+                                identifier: "mid"
+                              type(Type=PrimitiveType):
+                                type: "INT"
+                  - statement(Type=WhileStmt):
+                      body(Type=BlockStmt):
+                        statements:
+                          - statement(Type=ExpressionStmt):
+                              expression(Type=AssignExpr):
+                                operator: "ASSIGN"
+                                target(Type=NameExpr):
+                                  name(Type=SimpleName):
+                                    identifier: "mid"
+                                value(Type=BinaryExpr):
+                                  operator: "DIVIDE"
+                                  left(Type=EnclosedExpr):
+                                    inner(Type=BinaryExpr):
+                                      operator: "PLUS"
+                                      left(Type=NameExpr):
+                                        name(Type=SimpleName):
+                                          identifier: "low"
+                                      right(Type=NameExpr):
+                                        name(Type=SimpleName):
+                                          identifier: "high"
+                                  right(Type=IntegerLiteralExpr):
+                                    value: "2"
+                          - statement(Type=IfStmt):
+                              condition(Type=BinaryExpr):
+                                operator: "EQUALS"
+                                left(Type=ArrayAccessExpr):
+                                  index(Type=NameExpr):
+                                    name(Type=SimpleName):
+                                      identifier: "mid"
+                                  name(Type=NameExpr):
+                                    name(Type=SimpleName):
+                                      identifier: "arr"
+                                right(Type=NameExpr):
+                                  name(Type=SimpleName):
+                                    identifier: "ele"
+                              elseStmt(Type=IfStmt):
+                                condition(Type=BinaryExpr):
+                                  operator: "LESS"
+                                  left(Type=ArrayAccessExpr):
+                                    index(Type=NameExpr):
+                                      name(Type=SimpleName):
+                                        identifier: "mid"
+                                    name(Type=NameExpr):
+                                      name(Type=SimpleName):
+                                        identifier: "arr"
+                                  right(Type=NameExpr):
+                                    name(Type=SimpleName):
+                                      identifier: "ele"
+                                elseStmt(Type=BlockStmt):
+                                  statements:
+                                    - statement(Type=ExpressionStmt):
+                                        expression(Type=AssignExpr):
+                                          operator: "ASSIGN"
+                                          target(Type=NameExpr):
+                                            name(Type=SimpleName):
+                                              identifier: "high"
+                                          value(Type=BinaryExpr):
+                                            operator: "MINUS"
+                                            left(Type=NameExpr):
+                                              name(Type=SimpleName):
+                                                identifier: "mid"
+                                            right(Type=IntegerLiteralExpr):
+                                              value: "1"
+                                thenStmt(Type=BlockStmt):
+                                  statements:
+                                    - statement(Type=ExpressionStmt):
+                                        expression(Type=AssignExpr):
+                                          operator: "ASSIGN"
+                                          target(Type=NameExpr):
+                                            name(Type=SimpleName):
+                                              identifier: "low"
+                                          value(Type=BinaryExpr):
+                                            operator: "PLUS"
+                                            left(Type=NameExpr):
+                                              name(Type=SimpleName):
+                                                identifier: "mid"
+                                            right(Type=IntegerLiteralExpr):
+                                              value: "1"
+                              thenStmt(Type=BlockStmt):
+                                statements:
+                                  - statement(Type=ReturnStmt):
+                                      expression(Type=NameExpr):
+                                        name(Type=SimpleName):
+                                          identifier: "mid"
+                      condition(Type=BinaryExpr):
+                        operator: "LESS_EQUALS"
+                        left(Type=NameExpr):
+                          name(Type=SimpleName):
+                            identifier: "low"
+                        right(Type=NameExpr):
+                          name(Type=SimpleName):
+                            identifier: "high"
+                  - statement(Type=ReturnStmt):
+                      expression(Type=UnaryExpr):
+                        operator: "MINUS"
+                        expression(Type=IntegerLiteralExpr):
+                          value: "1"
+              type(Type=PrimitiveType):
+                type: "INT"
+              name(Type=SimpleName):
+                identifier: "search"
+              modifiers:
+                - modifier(Type=Modifier):
+                    keyword: "PUBLIC"
+              parameters:
+                - parameter(Type=Parameter):
+                    isVarArgs: "false"
+                    name(Type=SimpleName):
+                      identifier: "arr"
+                    type(Type=ArrayType):
+                      origin: "TYPE"
+                      componentType(Type=PrimitiveType):
+                        type: "INT"
+                - parameter(Type=Parameter):
+                    isVarArgs: "false"
+                    name(Type=SimpleName):
+                      identifier: "ele"
+                    type(Type=PrimitiveType):
+                      type: "INT"
+...

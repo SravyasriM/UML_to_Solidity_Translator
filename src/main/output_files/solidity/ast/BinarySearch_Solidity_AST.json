@@ -1,0 +1,945 @@
+{
+  "nodes": [
+    {
+      "fullyImplemented": true,
+      "contractKind": "contract",
+      "nodes": [
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "public",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": [
+              {
+                "constant": null,
+                "visibility": "internal",
+                "src": null,
+                "stateVariable": null,
+                "scope": null,
+                "name": null,
+                "typeName": {
+                  "comments": null,
+                  "src": null,
+                  "name": "int32",
+                  "id": null,
+                  "nodeType": "ElementaryTypeName",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  }
+                },
+                "storageLocation": "default",
+                "id": null,
+                "nodeType": "VariableDeclaration",
+                "typeDescriptions": {
+                  "typeString": null,
+                  "typeIdentifier": null
+                },
+                "value": null
+              }
+            ]
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": {
+                    "isPure": null,
+                    "src": null,
+                    "leftExpression": {
+                      "isConstant": null,
+                      "expression": {
+                        "src": null,
+                        "overloadedDeclarations": [],
+                        "name": "arr",
+                        "argumentTypes": null,
+                        "id": null,
+                        "nodeType": "Identifier",
+                        "referencedDeclaration": null,
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "isPure": null,
+                      "src": null,
+                      "memberName": "length",
+                      "argumentTypes": null,
+                      "id": null,
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "isLValue": null,
+                      "lValueRequested": null
+                    },
+                    "rightExpression": {
+                      "isPure": null,
+                      "src": null,
+                      "subdenomination": null,
+                      "kind": "number",
+                      "hexValue": null,
+                      "nodeType": "Literal",
+                      "isLValue": null,
+                      "isConstant": null,
+                      "argumentTypes": null,
+                      "id": null,
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": "1",
+                      "lValueRequested": false
+                    },
+                    "nodeType": "BinaryOperation",
+                    "isLValue": null,
+                    "operator": "-",
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "lValueRequested": null,
+                    "commonType": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    }
+                  },
+                  "declarations": [
+                    {
+                      "constant": null,
+                      "visibility": null,
+                      "src": null,
+                      "stateVariable": null,
+                      "scope": null,
+                      "name": "high",
+                      "typeName": {
+                        "comments": null,
+                        "src": null,
+                        "name": "int32",
+                        "id": null,
+                        "nodeType": "ElementaryTypeName",
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "storageLocation": "default",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              },
+              {
+                "expression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": {
+                    "isPure": null,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "number",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "value": "0",
+                    "lValueRequested": false
+                  },
+                  "declarations": [
+                    {
+                      "constant": null,
+                      "visibility": null,
+                      "src": null,
+                      "stateVariable": null,
+                      "scope": null,
+                      "name": "low",
+                      "typeName": {
+                        "comments": null,
+                        "src": null,
+                        "name": "int32",
+                        "id": null,
+                        "nodeType": "ElementaryTypeName",
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "storageLocation": "default",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              },
+              {
+                "expression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": null,
+                  "declarations": [
+                    {
+                      "constant": null,
+                      "visibility": null,
+                      "src": null,
+                      "stateVariable": null,
+                      "scope": null,
+                      "name": "mid",
+                      "typeName": {
+                        "comments": null,
+                        "src": null,
+                        "name": "int32",
+                        "id": null,
+                        "nodeType": "ElementaryTypeName",
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "storageLocation": "default",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              },
+              {
+                "condition": {
+                  "isPure": null,
+                  "src": null,
+                  "leftExpression": {
+                    "src": null,
+                    "overloadedDeclarations": [],
+                    "name": "low",
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "Identifier",
+                    "referencedDeclaration": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    }
+                  },
+                  "rightExpression": {
+                    "src": null,
+                    "overloadedDeclarations": [],
+                    "name": "high",
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "Identifier",
+                    "referencedDeclaration": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    }
+                  },
+                  "nodeType": "BinaryOperation",
+                  "isLValue": null,
+                  "operator": "<=",
+                  "isConstant": null,
+                  "argumentTypes": null,
+                  "id": null,
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "lValueRequested": null,
+                  "commonType": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  }
+                },
+                "src": null,
+                "id": null,
+                "body": {
+                  "src": null,
+                  "statements": [
+                    {
+                      "expression": {
+                        "isConstant": null,
+                        "rightHandSide": {
+                          "isPure": null,
+                          "src": null,
+                          "leftExpression": {
+                            "isConstant": null,
+                            "components": [
+                              {
+                                "isPure": null,
+                                "src": null,
+                                "leftExpression": {
+                                  "src": null,
+                                  "overloadedDeclarations": [],
+                                  "name": "low",
+                                  "argumentTypes": null,
+                                  "id": null,
+                                  "nodeType": "Identifier",
+                                  "referencedDeclaration": null,
+                                  "typeDescriptions": {
+                                    "typeString": null,
+                                    "typeIdentifier": null
+                                  }
+                                },
+                                "rightExpression": {
+                                  "src": null,
+                                  "overloadedDeclarations": [],
+                                  "name": "high",
+                                  "argumentTypes": null,
+                                  "id": null,
+                                  "nodeType": "Identifier",
+                                  "referencedDeclaration": null,
+                                  "typeDescriptions": {
+                                    "typeString": null,
+                                    "typeIdentifier": null
+                                  }
+                                },
+                                "nodeType": "BinaryOperation",
+                                "isLValue": null,
+                                "operator": "+",
+                                "isConstant": null,
+                                "argumentTypes": null,
+                                "id": null,
+                                "typeDescriptions": {
+                                  "typeString": null,
+                                  "typeIdentifier": null
+                                },
+                                "lValueRequested": null,
+                                "commonType": {
+                                  "typeString": null,
+                                  "typeIdentifier": null
+                                }
+                              }
+                            ],
+                            "isPure": null,
+                            "src": null,
+                            "argumentTypes": null,
+                            "id": null,
+                            "nodeType": "TupleExpression",
+                            "typeDescriptions": {
+                              "typeString": null,
+                              "typeIdentifier": null
+                            },
+                            "isInlineArray": true,
+                            "isLValue": null,
+                            "lValueRequested": null
+                          },
+                          "rightExpression": {
+                            "isPure": null,
+                            "src": null,
+                            "subdenomination": null,
+                            "kind": "number",
+                            "hexValue": null,
+                            "nodeType": "Literal",
+                            "isLValue": null,
+                            "isConstant": null,
+                            "argumentTypes": null,
+                            "id": null,
+                            "typeDescriptions": {
+                              "typeString": null,
+                              "typeIdentifier": null
+                            },
+                            "value": "2",
+                            "lValueRequested": false
+                          },
+                          "nodeType": "BinaryOperation",
+                          "isLValue": null,
+                          "operator": "/",
+                          "isConstant": null,
+                          "argumentTypes": null,
+                          "id": null,
+                          "typeDescriptions": {
+                            "typeString": null,
+                            "typeIdentifier": null
+                          },
+                          "lValueRequested": null,
+                          "commonType": {
+                            "typeString": null,
+                            "typeIdentifier": null
+                          }
+                        },
+                        "isPure": null,
+                        "src": null,
+                        "argumentTypes": null,
+                        "id": null,
+                        "nodeType": "Assignment",
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        },
+                        "leftHandSide": {
+                          "src": null,
+                          "overloadedDeclarations": [],
+                          "name": "mid",
+                          "argumentTypes": null,
+                          "id": null,
+                          "nodeType": "Identifier",
+                          "referencedDeclaration": null,
+                          "typeDescriptions": {
+                            "typeString": null,
+                            "typeIdentifier": null
+                          }
+                        },
+                        "isLValue": null,
+                        "lValueRequested": null,
+                        "operator": "="
+                      },
+                      "src": null,
+                      "id": null,
+                      "nodeType": "ExpressionStatement"
+                    },
+                    {
+                      "condition": {
+                        "isPure": null,
+                        "src": null,
+                        "leftExpression": {
+                          "isConstant": null,
+                          "isPure": null,
+                          "src": null,
+                          "baseExpression": {
+                            "src": null,
+                            "overloadedDeclarations": [],
+                            "name": "arr",
+                            "argumentTypes": null,
+                            "id": null,
+                            "nodeType": "Identifier",
+                            "referencedDeclaration": null,
+                            "typeDescriptions": {
+                              "typeString": null,
+                              "typeIdentifier": null
+                            }
+                          },
+                          "argumentTypes": null,
+                          "id": null,
+                          "indexExpression": {
+                            "src": null,
+                            "overloadedDeclarations": [],
+                            "name": "mid",
+                            "argumentTypes": null,
+                            "id": null,
+                            "nodeType": "Identifier",
+                            "referencedDeclaration": null,
+                            "typeDescriptions": {
+                              "typeString": null,
+                              "typeIdentifier": null
+                            }
+                          },
+                          "nodeType": "IndexAccess",
+                          "typeDescriptions": {
+                            "typeString": null,
+                            "typeIdentifier": null
+                          },
+                          "isLValue": null,
+                          "lValueRequested": null
+                        },
+                        "rightExpression": {
+                          "src": null,
+                          "overloadedDeclarations": [],
+                          "name": "ele",
+                          "argumentTypes": null,
+                          "id": null,
+                          "nodeType": "Identifier",
+                          "referencedDeclaration": null,
+                          "typeDescriptions": {
+                            "typeString": null,
+                            "typeIdentifier": null
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "isLValue": null,
+                        "operator": "==",
+                        "isConstant": null,
+                        "argumentTypes": null,
+                        "id": null,
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        },
+                        "lValueRequested": null,
+                        "commonType": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "trueBody": {
+                        "src": null,
+                        "statements": [
+                          {
+                            "functionReturnParameters": null,
+                            "expression": {
+                              "src": null,
+                              "overloadedDeclarations": [],
+                              "name": "mid",
+                              "argumentTypes": null,
+                              "id": null,
+                              "nodeType": "Identifier",
+                              "referencedDeclaration": null,
+                              "typeDescriptions": {
+                                "typeString": null,
+                                "typeIdentifier": null
+                              }
+                            },
+                            "src": null,
+                            "id": null,
+                            "nodeType": "Return"
+                          }
+                        ],
+                        "id": null,
+                        "nodeType": "Block"
+                      },
+                      "src": null,
+                      "falseBody": {
+                        "condition": {
+                          "isPure": null,
+                          "src": null,
+                          "leftExpression": {
+                            "isConstant": null,
+                            "isPure": null,
+                            "src": null,
+                            "baseExpression": {
+                              "src": null,
+                              "overloadedDeclarations": [],
+                              "name": "arr",
+                              "argumentTypes": null,
+                              "id": null,
+                              "nodeType": "Identifier",
+                              "referencedDeclaration": null,
+                              "typeDescriptions": {
+                                "typeString": null,
+                                "typeIdentifier": null
+                              }
+                            },
+                            "argumentTypes": null,
+                            "id": null,
+                            "indexExpression": {
+                              "src": null,
+                              "overloadedDeclarations": [],
+                              "name": "mid",
+                              "argumentTypes": null,
+                              "id": null,
+                              "nodeType": "Identifier",
+                              "referencedDeclaration": null,
+                              "typeDescriptions": {
+                                "typeString": null,
+                                "typeIdentifier": null
+                              }
+                            },
+                            "nodeType": "IndexAccess",
+                            "typeDescriptions": {
+                              "typeString": null,
+                              "typeIdentifier": null
+                            },
+                            "isLValue": null,
+                            "lValueRequested": null
+                          },
+                          "rightExpression": {
+                            "src": null,
+                            "overloadedDeclarations": [],
+                            "name": "ele",
+                            "argumentTypes": null,
+                            "id": null,
+                            "nodeType": "Identifier",
+                            "referencedDeclaration": null,
+                            "typeDescriptions": {
+                              "typeString": null,
+                              "typeIdentifier": null
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "isLValue": null,
+                          "operator": "<",
+                          "isConstant": null,
+                          "argumentTypes": null,
+                          "id": null,
+                          "typeDescriptions": {
+                            "typeString": null,
+                            "typeIdentifier": null
+                          },
+                          "lValueRequested": null,
+                          "commonType": {
+                            "typeString": null,
+                            "typeIdentifier": null
+                          }
+                        },
+                        "trueBody": {
+                          "src": null,
+                          "statements": [
+                            {
+                              "expression": {
+                                "isConstant": null,
+                                "rightHandSide": {
+                                  "isPure": null,
+                                  "src": null,
+                                  "leftExpression": {
+                                    "src": null,
+                                    "overloadedDeclarations": [],
+                                    "name": "mid",
+                                    "argumentTypes": null,
+                                    "id": null,
+                                    "nodeType": "Identifier",
+                                    "referencedDeclaration": null,
+                                    "typeDescriptions": {
+                                      "typeString": null,
+                                      "typeIdentifier": null
+                                    }
+                                  },
+                                  "rightExpression": {
+                                    "isPure": null,
+                                    "src": null,
+                                    "subdenomination": null,
+                                    "kind": "number",
+                                    "hexValue": null,
+                                    "nodeType": "Literal",
+                                    "isLValue": null,
+                                    "isConstant": null,
+                                    "argumentTypes": null,
+                                    "id": null,
+                                    "typeDescriptions": {
+                                      "typeString": null,
+                                      "typeIdentifier": null
+                                    },
+                                    "value": "1",
+                                    "lValueRequested": false
+                                  },
+                                  "nodeType": "BinaryOperation",
+                                  "isLValue": null,
+                                  "operator": "+",
+                                  "isConstant": null,
+                                  "argumentTypes": null,
+                                  "id": null,
+                                  "typeDescriptions": {
+                                    "typeString": null,
+                                    "typeIdentifier": null
+                                  },
+                                  "lValueRequested": null,
+                                  "commonType": {
+                                    "typeString": null,
+                                    "typeIdentifier": null
+                                  }
+                                },
+                                "isPure": null,
+                                "src": null,
+                                "argumentTypes": null,
+                                "id": null,
+                                "nodeType": "Assignment",
+                                "typeDescriptions": {
+                                  "typeString": null,
+                                  "typeIdentifier": null
+                                },
+                                "leftHandSide": {
+                                  "src": null,
+                                  "overloadedDeclarations": [],
+                                  "name": "low",
+                                  "argumentTypes": null,
+                                  "id": null,
+                                  "nodeType": "Identifier",
+                                  "referencedDeclaration": null,
+                                  "typeDescriptions": {
+                                    "typeString": null,
+                                    "typeIdentifier": null
+                                  }
+                                },
+                                "isLValue": null,
+                                "lValueRequested": null,
+                                "operator": "="
+                              },
+                              "src": null,
+                              "id": null,
+                              "nodeType": "ExpressionStatement"
+                            }
+                          ],
+                          "id": null,
+                          "nodeType": "Block"
+                        },
+                        "src": null,
+                        "falseBody": {
+                          "src": null,
+                          "statements": [
+                            {
+                              "expression": {
+                                "isConstant": null,
+                                "rightHandSide": {
+                                  "isPure": null,
+                                  "src": null,
+                                  "leftExpression": {
+                                    "src": null,
+                                    "overloadedDeclarations": [],
+                                    "name": "mid",
+                                    "argumentTypes": null,
+                                    "id": null,
+                                    "nodeType": "Identifier",
+                                    "referencedDeclaration": null,
+                                    "typeDescriptions": {
+                                      "typeString": null,
+                                      "typeIdentifier": null
+                                    }
+                                  },
+                                  "rightExpression": {
+                                    "isPure": null,
+                                    "src": null,
+                                    "subdenomination": null,
+                                    "kind": "number",
+                                    "hexValue": null,
+                                    "nodeType": "Literal",
+                                    "isLValue": null,
+                                    "isConstant": null,
+                                    "argumentTypes": null,
+                                    "id": null,
+                                    "typeDescriptions": {
+                                      "typeString": null,
+                                      "typeIdentifier": null
+                                    },
+                                    "value": "1",
+                                    "lValueRequested": false
+                                  },
+                                  "nodeType": "BinaryOperation",
+                                  "isLValue": null,
+                                  "operator": "-",
+                                  "isConstant": null,
+                                  "argumentTypes": null,
+                                  "id": null,
+                                  "typeDescriptions": {
+                                    "typeString": null,
+                                    "typeIdentifier": null
+                                  },
+                                  "lValueRequested": null,
+                                  "commonType": {
+                                    "typeString": null,
+                                    "typeIdentifier": null
+                                  }
+                                },
+                                "isPure": null,
+                                "src": null,
+                                "argumentTypes": null,
+                                "id": null,
+                                "nodeType": "Assignment",
+                                "typeDescriptions": {
+                                  "typeString": null,
+                                  "typeIdentifier": null
+                                },
+                                "leftHandSide": {
+                                  "src": null,
+                                  "overloadedDeclarations": [],
+                                  "name": "high",
+                                  "argumentTypes": null,
+                                  "id": null,
+                                  "nodeType": "Identifier",
+                                  "referencedDeclaration": null,
+                                  "typeDescriptions": {
+                                    "typeString": null,
+                                    "typeIdentifier": null
+                                  }
+                                },
+                                "isLValue": null,
+                                "lValueRequested": null,
+                                "operator": "="
+                              },
+                              "src": null,
+                              "id": null,
+                              "nodeType": "ExpressionStatement"
+                            }
+                          ],
+                          "id": null,
+                          "nodeType": "Block"
+                        },
+                        "id": null,
+                        "nodeType": "IfStatement"
+                      },
+                      "id": null,
+                      "nodeType": "IfStatement"
+                    }
+                  ],
+                  "id": null,
+                  "nodeType": "Block"
+                },
+                "nodeType": "WhileStatement"
+              },
+              {
+                "functionReturnParameters": null,
+                "expression": {
+                  "isConstant": null,
+                  "isPure": null,
+                  "src": null,
+                  "prefix": true,
+                  "argumentTypes": null,
+                  "id": null,
+                  "nodeType": "UnaryOperation",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "isLValue": null,
+                  "lValueRequested": null,
+                  "operator": "-",
+                  "subExpression": {
+                    "isPure": null,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "number",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "value": "1",
+                    "lValueRequested": false
+                  }
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "Return"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "search",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": [
+              {
+                "constant": null,
+                "visibility": null,
+                "src": null,
+                "stateVariable": null,
+                "scope": null,
+                "name": "arr",
+                "typeName": {
+                  "src": null,
+                  "length": null,
+                  "id": null,
+                  "nodeType": "ArrayTypeName",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "baseType": {
+                    "comments": null,
+                    "src": null,
+                    "name": "int32",
+                    "id": null,
+                    "nodeType": "ElementaryTypeName",
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    }
+                  }
+                },
+                "storageLocation": "memory",
+                "id": null,
+                "nodeType": "VariableDeclaration",
+                "typeDescriptions": {
+                  "typeString": null,
+                  "typeIdentifier": null
+                },
+                "value": null
+              },
+              {
+                "constant": null,
+                "visibility": null,
+                "src": null,
+                "stateVariable": null,
+                "scope": null,
+                "name": "ele",
+                "typeName": {
+                  "comments": null,
+                  "src": null,
+                  "name": "int32",
+                  "id": null,
+                  "nodeType": "ElementaryTypeName",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  }
+                },
+                "storageLocation": "default",
+                "id": null,
+                "nodeType": "VariableDeclaration",
+                "typeDescriptions": {
+                  "typeString": null,
+                  "typeIdentifier": null
+                },
+                "value": null
+              }
+            ]
+          }
+        }
+      ],
+      "linearizedBaseContracts": [],
+      "src": null,
+      "contractDependencies": [],
+      "documentation": null,
+      "scope": null,
+      "name": "BinarySearch",
+      "id": null,
+      "nodeType": "ContractDefinition",
+      "baseContracts": []
+    }
+  ],
+  "src": null,
+  "absolutePath": null,
+  "exportedSymbols": null,
+  "id": null,
+  "nodeType": "SourceUnit"
+}

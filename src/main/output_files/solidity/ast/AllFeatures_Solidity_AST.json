@@ -1,0 +1,2592 @@
+{
+  "nodes": [
+    {
+      "fullyImplemented": true,
+      "contractKind": "interface",
+      "nodes": [],
+      "linearizedBaseContracts": [],
+      "src": null,
+      "contractDependencies": [],
+      "documentation": null,
+      "scope": null,
+      "name": "Interface",
+      "id": null,
+      "nodeType": "ContractDefinition",
+      "baseContracts": []
+    },
+    {
+      "fullyImplemented": true,
+      "contractKind": "contract",
+      "nodes": [
+        {
+          "constant": null,
+          "visibility": "public ",
+          "src": null,
+          "stateVariable": true,
+          "scope": null,
+          "name": "a",
+          "typeName": {
+            "comments": null,
+            "src": null,
+            "name": "int32",
+            "id": null,
+            "nodeType": "ElementaryTypeName",
+            "typeDescriptions": {
+              "typeString": null,
+              "typeIdentifier": null
+            }
+          },
+          "storageLocation": "default",
+          "id": null,
+          "nodeType": "VariableDeclaration",
+          "typeDescriptions": {
+            "typeString": null,
+            "typeIdentifier": null
+          },
+          "value": null
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "public",
+          "src": null,
+          "kind": "constructor",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": null,
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        }
+      ],
+      "linearizedBaseContracts": [],
+      "src": null,
+      "contractDependencies": [],
+      "documentation": null,
+      "scope": null,
+      "name": "Example",
+      "id": null,
+      "nodeType": "ContractDefinition",
+      "baseContracts": []
+    },
+    {
+      "fullyImplemented": true,
+      "contractKind": "contract",
+      "nodes": [
+        {
+          "constant": null,
+          "visibility": null,
+          "src": null,
+          "stateVariable": true,
+          "scope": null,
+          "name": "global_var",
+          "typeName": {
+            "comments": null,
+            "src": null,
+            "name": "int32",
+            "id": null,
+            "nodeType": "ElementaryTypeName",
+            "typeDescriptions": {
+              "typeString": null,
+              "typeIdentifier": null
+            }
+          },
+          "storageLocation": "default",
+          "id": null,
+          "nodeType": "VariableDeclaration",
+          "typeDescriptions": {
+            "typeString": null,
+            "typeIdentifier": null
+          },
+          "value": null
+        },
+        {
+          "comments": "// Converted from non-static initializer block of Java program.",
+          "superFunction": null,
+          "visibility": "public",
+          "src": null,
+          "kind": "constructor",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "isConstant": null,
+                  "rightHandSide": {
+                    "isPure": null,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "number",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "value": "10",
+                    "lValueRequested": false
+                  },
+                  "isPure": null,
+                  "src": null,
+                  "argumentTypes": null,
+                  "id": null,
+                  "nodeType": "Assignment",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "leftHandSide": {
+                    "src": null,
+                    "overloadedDeclarations": [],
+                    "name": "global_var",
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "Identifier",
+                    "referencedDeclaration": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    }
+                  },
+                  "isLValue": null,
+                  "lValueRequested": null,
+                  "operator": "="
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": null,
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "foo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": [
+              {
+                "constant": null,
+                "visibility": "internal",
+                "src": null,
+                "stateVariable": null,
+                "scope": null,
+                "name": null,
+                "typeName": {
+                  "comments": null,
+                  "src": null,
+                  "name": "int32",
+                  "id": null,
+                  "nodeType": "ElementaryTypeName",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  }
+                },
+                "storageLocation": "default",
+                "id": null,
+                "nodeType": "VariableDeclaration",
+                "typeDescriptions": {
+                  "typeString": null,
+                  "typeIdentifier": null
+                },
+                "value": null
+              }
+            ]
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "functionReturnParameters": null,
+                "expression": {
+                  "isPure": null,
+                  "src": null,
+                  "subdenomination": null,
+                  "kind": "number",
+                  "hexValue": null,
+                  "nodeType": "Literal",
+                  "isLValue": null,
+                  "isConstant": null,
+                  "argumentTypes": null,
+                  "id": null,
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "value": "10",
+                  "lValueRequested": false
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "Return"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "returnStatementDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": {
+                    "isPure": null,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "number",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "value": "10",
+                    "lValueRequested": false
+                  },
+                  "declarations": [
+                    {
+                      "constant": null,
+                      "visibility": null,
+                      "src": null,
+                      "stateVariable": null,
+                      "scope": null,
+                      "name": "a",
+                      "typeName": {
+                        "comments": null,
+                        "src": null,
+                        "name": "int32",
+                        "id": null,
+                        "nodeType": "ElementaryTypeName",
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "storageLocation": "default",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "variableDeclarationExprDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": {
+                    "isConstant": null,
+                    "components": [
+                      {
+                        "isPure": null,
+                        "src": null,
+                        "subdenomination": null,
+                        "kind": "number",
+                        "hexValue": null,
+                        "nodeType": "Literal",
+                        "isLValue": null,
+                        "isConstant": null,
+                        "argumentTypes": null,
+                        "id": null,
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        },
+                        "value": "1",
+                        "lValueRequested": false
+                      },
+                      {
+                        "isPure": null,
+                        "src": null,
+                        "subdenomination": null,
+                        "kind": "number",
+                        "hexValue": null,
+                        "nodeType": "Literal",
+                        "isLValue": null,
+                        "isConstant": null,
+                        "argumentTypes": null,
+                        "id": null,
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        },
+                        "value": "2",
+                        "lValueRequested": false
+                      }
+                    ],
+                    "isPure": null,
+                    "src": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "TupleExpression",
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "isInlineArray": true,
+                    "isLValue": null,
+                    "lValueRequested": null
+                  },
+                  "declarations": [
+                    {
+                      "constant": null,
+                      "visibility": null,
+                      "src": null,
+                      "stateVariable": null,
+                      "scope": null,
+                      "name": "a",
+                      "typeName": {
+                        "src": null,
+                        "length": {
+                          "isPure": null,
+                          "src": null,
+                          "subdenomination": null,
+                          "kind": "number",
+                          "hexValue": null,
+                          "nodeType": "Literal",
+                          "isLValue": null,
+                          "isConstant": null,
+                          "argumentTypes": null,
+                          "id": null,
+                          "typeDescriptions": {
+                            "typeString": null,
+                            "typeIdentifier": null
+                          },
+                          "value": 2,
+                          "lValueRequested": false
+                        },
+                        "id": null,
+                        "nodeType": "ArrayTypeName",
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        },
+                        "baseType": {
+                          "comments": null,
+                          "src": null,
+                          "name": "int32",
+                          "id": null,
+                          "nodeType": "ElementaryTypeName",
+                          "typeDescriptions": {
+                            "typeString": null,
+                            "typeIdentifier": null
+                          }
+                        }
+                      },
+                      "storageLocation": "memory",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "arrayInitializerExprDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "condition": {
+                  "isPure": null,
+                  "src": null,
+                  "subdenomination": null,
+                  "kind": "bool",
+                  "hexValue": null,
+                  "nodeType": "Literal",
+                  "isLValue": null,
+                  "isConstant": null,
+                  "argumentTypes": null,
+                  "id": null,
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "value": true,
+                  "lValueRequested": false
+                },
+                "trueBody": {
+                  "src": null,
+                  "statements": [],
+                  "id": null,
+                  "nodeType": "Block"
+                },
+                "src": null,
+                "falseBody": {
+                  "src": null,
+                  "statements": [],
+                  "id": null,
+                  "nodeType": "Block"
+                },
+                "id": null,
+                "nodeType": "IfStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "ifElseThenStatementDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "condition": {
+                  "isPure": null,
+                  "src": null,
+                  "leftExpression": {
+                    "src": null,
+                    "overloadedDeclarations": [],
+                    "name": "a",
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "Identifier",
+                    "referencedDeclaration": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    }
+                  },
+                  "rightExpression": {
+                    "src": null,
+                    "overloadedDeclarations": [],
+                    "name": "b",
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "Identifier",
+                    "referencedDeclaration": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    }
+                  },
+                  "nodeType": "BinaryOperation",
+                  "isLValue": null,
+                  "operator": "<",
+                  "isConstant": null,
+                  "argumentTypes": null,
+                  "id": null,
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "lValueRequested": null,
+                  "commonType": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  }
+                },
+                "trueBody": {
+                  "src": null,
+                  "statements": [],
+                  "id": null,
+                  "nodeType": "Block"
+                },
+                "src": null,
+                "falseBody": null,
+                "id": null,
+                "nodeType": "IfStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "binaryExprDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": [
+              {
+                "constant": null,
+                "visibility": null,
+                "src": null,
+                "stateVariable": null,
+                "scope": null,
+                "name": "a",
+                "typeName": {
+                  "comments": null,
+                  "src": null,
+                  "name": "int32",
+                  "id": null,
+                  "nodeType": "ElementaryTypeName",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  }
+                },
+                "storageLocation": "default",
+                "id": null,
+                "nodeType": "VariableDeclaration",
+                "typeDescriptions": {
+                  "typeString": null,
+                  "typeIdentifier": null
+                },
+                "value": null
+              },
+              {
+                "constant": null,
+                "visibility": null,
+                "src": null,
+                "stateVariable": null,
+                "scope": null,
+                "name": "b",
+                "typeName": {
+                  "comments": null,
+                  "src": null,
+                  "name": "int32",
+                  "id": null,
+                  "nodeType": "ElementaryTypeName",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  }
+                },
+                "storageLocation": "default",
+                "id": null,
+                "nodeType": "VariableDeclaration",
+                "typeDescriptions": {
+                  "typeString": null,
+                  "typeIdentifier": null
+                },
+                "value": null
+              }
+            ]
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "isConstant": null,
+                  "isPure": null,
+                  "src": null,
+                  "prefix": false,
+                  "argumentTypes": null,
+                  "id": null,
+                  "nodeType": "UnaryOperation",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "isLValue": null,
+                  "lValueRequested": null,
+                  "operator": "++",
+                  "subExpression": {
+                    "src": null,
+                    "overloadedDeclarations": [],
+                    "name": "a",
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "Identifier",
+                    "referencedDeclaration": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    }
+                  }
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "unaryExprDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": [
+              {
+                "constant": null,
+                "visibility": null,
+                "src": null,
+                "stateVariable": null,
+                "scope": null,
+                "name": "a",
+                "typeName": {
+                  "comments": null,
+                  "src": null,
+                  "name": "int32",
+                  "id": null,
+                  "nodeType": "ElementaryTypeName",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  }
+                },
+                "storageLocation": "default",
+                "id": null,
+                "nodeType": "VariableDeclaration",
+                "typeDescriptions": {
+                  "typeString": null,
+                  "typeIdentifier": null
+                },
+                "value": null
+              }
+            ]
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "condition": {
+                  "isPure": null,
+                  "src": null,
+                  "leftExpression": {
+                    "src": null,
+                    "overloadedDeclarations": [],
+                    "name": "i",
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "Identifier",
+                    "referencedDeclaration": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    }
+                  },
+                  "rightExpression": {
+                    "isPure": null,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "number",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "value": "100",
+                    "lValueRequested": false
+                  },
+                  "nodeType": "BinaryOperation",
+                  "isLValue": null,
+                  "operator": "<",
+                  "isConstant": null,
+                  "argumentTypes": null,
+                  "id": null,
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "lValueRequested": null,
+                  "commonType": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  }
+                },
+                "src": null,
+                "initializationExpression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": {
+                    "isPure": null,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "number",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "value": "0",
+                    "lValueRequested": false
+                  },
+                  "declarations": [
+                    {
+                      "constant": null,
+                      "visibility": null,
+                      "src": null,
+                      "stateVariable": null,
+                      "scope": null,
+                      "name": "i",
+                      "typeName": {
+                        "comments": null,
+                        "src": null,
+                        "name": "int32",
+                        "id": null,
+                        "nodeType": "ElementaryTypeName",
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "storageLocation": "default",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "id": null,
+                "body": {
+                  "src": null,
+                  "statements": [],
+                  "id": null,
+                  "nodeType": "Block"
+                },
+                "nodeType": "ForStatement",
+                "loopExpression": {
+                  "expression": {
+                    "isConstant": null,
+                    "isPure": null,
+                    "src": null,
+                    "prefix": false,
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "UnaryOperation",
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "isLValue": null,
+                    "lValueRequested": null,
+                    "operator": "++",
+                    "subExpression": {
+                      "src": null,
+                      "overloadedDeclarations": [],
+                      "name": "i",
+                      "argumentTypes": null,
+                      "id": null,
+                      "nodeType": "Identifier",
+                      "referencedDeclaration": null,
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      }
+                    }
+                  },
+                  "src": null,
+                  "id": null,
+                  "nodeType": "ExpressionStatement"
+                }
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "forStmtDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "condition": {
+                  "isPure": null,
+                  "src": null,
+                  "subdenomination": null,
+                  "kind": "bool",
+                  "hexValue": null,
+                  "nodeType": "Literal",
+                  "isLValue": null,
+                  "isConstant": null,
+                  "argumentTypes": null,
+                  "id": null,
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "value": true,
+                  "lValueRequested": false
+                },
+                "src": null,
+                "id": null,
+                "body": {
+                  "src": null,
+                  "statements": [],
+                  "id": null,
+                  "nodeType": "Block"
+                },
+                "nodeType": "WhileStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "whileStmtDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "condition": {
+                  "isPure": null,
+                  "src": null,
+                  "subdenomination": null,
+                  "kind": "bool",
+                  "hexValue": null,
+                  "nodeType": "Literal",
+                  "isLValue": null,
+                  "isConstant": null,
+                  "argumentTypes": null,
+                  "id": null,
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "value": true,
+                  "lValueRequested": false
+                },
+                "src": null,
+                "id": null,
+                "body": {
+                  "src": null,
+                  "statements": [],
+                  "id": null,
+                  "nodeType": "Block"
+                },
+                "nodeType": "DoWhileStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "doWhileStmtDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "expression": {
+                    "src": null,
+                    "overloadedDeclarations": [],
+                    "name": "foo",
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "Identifier",
+                    "referencedDeclaration": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    }
+                  },
+                  "isPure": null,
+                  "src": null,
+                  "kind": "functionCall",
+                  "nodeType": "FunctionCall",
+                  "isLValue": null,
+                  "isConstant": null,
+                  "names": [],
+                  "arguments": [],
+                  "argumentTypes": null,
+                  "id": null,
+                  "typeDescriptions": {
+                    "typeString": "tuple()",
+                    "typeIdentifier": "t_tuple$__$"
+                  },
+                  "lValueRequested": null
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "methodCallExprDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "isConstant": null,
+                  "rightHandSide": {
+                    "isPure": null,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "number",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "value": "10",
+                    "lValueRequested": false
+                  },
+                  "isPure": null,
+                  "src": null,
+                  "argumentTypes": null,
+                  "id": null,
+                  "nodeType": "Assignment",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "leftHandSide": {
+                    "src": null,
+                    "overloadedDeclarations": [],
+                    "name": "a",
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "Identifier",
+                    "referencedDeclaration": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    }
+                  },
+                  "isLValue": null,
+                  "lValueRequested": null,
+                  "operator": "="
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "assignExprDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": [
+              {
+                "constant": null,
+                "visibility": null,
+                "src": null,
+                "stateVariable": null,
+                "scope": null,
+                "name": "a",
+                "typeName": {
+                  "comments": null,
+                  "src": null,
+                  "name": "int32",
+                  "id": null,
+                  "nodeType": "ElementaryTypeName",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  }
+                },
+                "storageLocation": "default",
+                "id": null,
+                "nodeType": "VariableDeclaration",
+                "typeDescriptions": {
+                  "typeString": null,
+                  "typeIdentifier": null
+                },
+                "value": null
+              }
+            ]
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "isConstant": null,
+                  "rightHandSide": {
+                    "isPure": null,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "number",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "value": "10",
+                    "lValueRequested": false
+                  },
+                  "isPure": null,
+                  "src": null,
+                  "argumentTypes": null,
+                  "id": null,
+                  "nodeType": "Assignment",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "leftHandSide": {
+                    "isConstant": null,
+                    "isPure": null,
+                    "src": null,
+                    "baseExpression": {
+                      "src": null,
+                      "overloadedDeclarations": [],
+                      "name": "a",
+                      "argumentTypes": null,
+                      "id": null,
+                      "nodeType": "Identifier",
+                      "referencedDeclaration": null,
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      }
+                    },
+                    "argumentTypes": null,
+                    "id": null,
+                    "indexExpression": {
+                      "isPure": null,
+                      "src": null,
+                      "subdenomination": null,
+                      "kind": "number",
+                      "hexValue": null,
+                      "nodeType": "Literal",
+                      "isLValue": null,
+                      "isConstant": null,
+                      "argumentTypes": null,
+                      "id": null,
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": "0",
+                      "lValueRequested": false
+                    },
+                    "nodeType": "IndexAccess",
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "isLValue": null,
+                    "lValueRequested": null
+                  },
+                  "isLValue": null,
+                  "lValueRequested": null,
+                  "operator": "="
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "arrayAccessExprDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": [
+              {
+                "constant": null,
+                "visibility": null,
+                "src": null,
+                "stateVariable": null,
+                "scope": null,
+                "name": "a",
+                "typeName": {
+                  "src": null,
+                  "length": null,
+                  "id": null,
+                  "nodeType": "ArrayTypeName",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "baseType": {
+                    "comments": null,
+                    "src": null,
+                    "name": "int32",
+                    "id": null,
+                    "nodeType": "ElementaryTypeName",
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    }
+                  }
+                },
+                "storageLocation": "memory",
+                "id": null,
+                "nodeType": "VariableDeclaration",
+                "typeDescriptions": {
+                  "typeString": null,
+                  "typeIdentifier": null
+                },
+                "value": null
+              }
+            ]
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "condition": {
+                  "isPure": null,
+                  "src": null,
+                  "subdenomination": null,
+                  "kind": "bool",
+                  "hexValue": null,
+                  "nodeType": "Literal",
+                  "isLValue": null,
+                  "isConstant": null,
+                  "argumentTypes": null,
+                  "id": null,
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "value": true,
+                  "lValueRequested": false
+                },
+                "src": null,
+                "id": null,
+                "body": {
+                  "src": null,
+                  "statements": [
+                    {
+                      "src": null,
+                      "id": null,
+                      "nodeType": "Break"
+                    }
+                  ],
+                  "id": null,
+                  "nodeType": "Block"
+                },
+                "nodeType": "WhileStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "breakStmtDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "condition": {
+                  "isPure": null,
+                  "src": null,
+                  "subdenomination": null,
+                  "kind": "bool",
+                  "hexValue": null,
+                  "nodeType": "Literal",
+                  "isLValue": null,
+                  "isConstant": null,
+                  "argumentTypes": null,
+                  "id": null,
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "value": true,
+                  "lValueRequested": false
+                },
+                "src": null,
+                "id": null,
+                "body": {
+                  "src": null,
+                  "statements": [
+                    {
+                      "src": null,
+                      "id": null,
+                      "nodeType": "Continue"
+                    }
+                  ],
+                  "id": null,
+                  "nodeType": "Block"
+                },
+                "nodeType": "WhileStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "continueStmtDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "condition": {
+                  "isPure": false,
+                  "src": null,
+                  "leftExpression": {
+                    "src": null,
+                    "overloadedDeclarations": [],
+                    "name": "iterator_var",
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "Identifier",
+                    "referencedDeclaration": null,
+                    "typeDescriptions": {
+                      "typeString": "uint256",
+                      "typeIdentifier": "t_uint256"
+                    }
+                  },
+                  "rightExpression": {
+                    "isConstant": false,
+                    "expression": {
+                      "src": null,
+                      "overloadedDeclarations": [],
+                      "name": "arr",
+                      "argumentTypes": null,
+                      "id": null,
+                      "nodeType": "Identifier",
+                      "referencedDeclaration": null,
+                      "typeDescriptions": {
+                        "typeString": "int256[] memory",
+                        "typeIdentifier": "t_array$_t_int256_$dyn_memory_ptr"
+                      }
+                    },
+                    "isPure": false,
+                    "src": null,
+                    "memberName": "length",
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": null,
+                    "typeDescriptions": {
+                      "typeString": "uint256",
+                      "typeIdentifier": "t_uint256"
+                    },
+                    "isLValue": false,
+                    "lValueRequested": false
+                  },
+                  "nodeType": "BinaryOperation",
+                  "isLValue": false,
+                  "operator": "<",
+                  "isConstant": false,
+                  "argumentTypes": null,
+                  "id": null,
+                  "typeDescriptions": {
+                    "typeString": "bool",
+                    "typeIdentifier": "t_bool"
+                  },
+                  "lValueRequested": false,
+                  "commonType": {
+                    "typeString": "uint256",
+                    "typeIdentifier": "t_uint256"
+                  }
+                },
+                "src": null,
+                "initializationExpression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": {
+                    "isPure": true,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "number",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": false,
+                    "isConstant": false,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": "int_const 0",
+                      "typeIdentifier": "t_rational_0_by_1"
+                    },
+                    "value": "0",
+                    "lValueRequested": false
+                  },
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "visibility": "internal",
+                      "src": null,
+                      "stateVariable": false,
+                      "scope": null,
+                      "name": "iterator_var",
+                      "typeName": {
+                        "src": null,
+                        "name": "uint256",
+                        "id": null,
+                        "nodeType": "ElementaryTypeName",
+                        "typeDescriptions": {
+                          "typeString": "uint256",
+                          "typeIdentifier": "t_uint256"
+                        }
+                      },
+                      "storageLocation": "default",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": "uint256",
+                        "typeIdentifier": "t_uint256"
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "id": null,
+                "body": {
+                  "src": null,
+                  "statements": [
+                    {
+                      "assignments": [],
+                      "src": null,
+                      "id": null,
+                      "nodeType": "VariableDeclarationStatement",
+                      "initialValue": {
+                        "isConstant": false,
+                        "isPure": false,
+                        "src": null,
+                        "baseExpression": {
+                          "src": null,
+                          "overloadedDeclarations": [],
+                          "name": "arr",
+                          "argumentTypes": null,
+                          "id": null,
+                          "nodeType": "Identifier",
+                          "referencedDeclaration": null,
+                          "typeDescriptions": {
+                            "typeString": "int256[] memory",
+                            "typeIdentifier": "t_array$_t_int256_$dyn_memory_ptr"
+                          }
+                        },
+                        "argumentTypes": null,
+                        "id": null,
+                        "indexExpression": {
+                          "src": null,
+                          "overloadedDeclarations": [],
+                          "name": "iterator_var",
+                          "argumentTypes": null,
+                          "id": null,
+                          "nodeType": "Identifier",
+                          "referencedDeclaration": null,
+                          "typeDescriptions": {
+                            "typeString": "uint256",
+                            "typeIdentifier": "t_uint256"
+                          }
+                        },
+                        "nodeType": "IndexAccess",
+                        "typeDescriptions": {
+                          "typeString": "int256",
+                          "typeIdentifier": "t_int256"
+                        },
+                        "isLValue": true,
+                        "lValueRequested": false
+                      },
+                      "declarations": [
+                        {
+                          "constant": null,
+                          "visibility": "internal",
+                          "src": null,
+                          "stateVariable": true,
+                          "scope": null,
+                          "name": "i",
+                          "typeName": {
+                            "comments": null,
+                            "src": null,
+                            "name": "int32",
+                            "id": null,
+                            "nodeType": "ElementaryTypeName",
+                            "typeDescriptions": {
+                              "typeString": null,
+                              "typeIdentifier": null
+                            }
+                          },
+                          "storageLocation": "default",
+                          "id": null,
+                          "nodeType": "VariableDeclaration",
+                          "typeDescriptions": {
+                            "typeString": null,
+                            "typeIdentifier": null
+                          },
+                          "value": null
+                        }
+                      ]
+                    }
+                  ],
+                  "id": null,
+                  "nodeType": "Block"
+                },
+                "nodeType": "ForStatement",
+                "loopExpression": {
+                  "expression": {
+                    "isConstant": false,
+                    "isPure": false,
+                    "src": null,
+                    "prefix": false,
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "UnaryOperation",
+                    "typeDescriptions": {
+                      "typeString": "uint256",
+                      "typeIdentifier": "t_uint256"
+                    },
+                    "isLValue": false,
+                    "lValueRequested": false,
+                    "operator": "++",
+                    "subExpression": {
+                      "src": null,
+                      "overloadedDeclarations": [],
+                      "name": "iterator_var",
+                      "argumentTypes": null,
+                      "id": null,
+                      "nodeType": "Identifier",
+                      "referencedDeclaration": null,
+                      "typeDescriptions": {
+                        "typeString": "uint256",
+                        "typeIdentifier": "t_uint256"
+                      }
+                    }
+                  },
+                  "src": null,
+                  "id": null,
+                  "nodeType": "ExpressionStatement"
+                }
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "forEachStmtDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": [
+              {
+                "constant": null,
+                "visibility": null,
+                "src": null,
+                "stateVariable": null,
+                "scope": null,
+                "name": "arr",
+                "typeName": {
+                  "src": null,
+                  "length": null,
+                  "id": null,
+                  "nodeType": "ArrayTypeName",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "baseType": {
+                    "comments": null,
+                    "src": null,
+                    "name": "int32",
+                    "id": null,
+                    "nodeType": "ElementaryTypeName",
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    }
+                  }
+                },
+                "storageLocation": "memory",
+                "id": null,
+                "nodeType": "VariableDeclaration",
+                "typeDescriptions": {
+                  "typeString": null,
+                  "typeIdentifier": null
+                },
+                "value": null
+              }
+            ]
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": {
+                    "expression": {
+                      "isConstant": null,
+                      "isPure": null,
+                      "src": null,
+                      "typeName": {
+                        "src": null,
+                        "contractScope": null,
+                        "name": "Example",
+                        "id": null,
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": null,
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "argumentTypes": [],
+                      "id": null,
+                      "nodeType": "NewExpression",
+                      "typeDescriptions": null,
+                      "isLValue": null,
+                      "lValueRequested": null
+                    },
+                    "isPure": null,
+                    "src": null,
+                    "kind": "functionCall",
+                    "nodeType": "FunctionCall",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "names": [],
+                    "arguments": [],
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": "tuple()",
+                      "typeIdentifier": "t_tuple$__$"
+                    },
+                    "lValueRequested": null
+                  },
+                  "declarations": [
+                    {
+                      "constant": null,
+                      "visibility": null,
+                      "src": null,
+                      "stateVariable": null,
+                      "scope": null,
+                      "name": "example",
+                      "typeName": {
+                        "src": null,
+                        "contractScope": null,
+                        "name": "Example",
+                        "id": null,
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": null,
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "storageLocation": "default",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "objectCreationExprDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": {
+                    "isPure": null,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "number",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "value": "10",
+                    "lValueRequested": false
+                  },
+                  "declarations": [
+                    {
+                      "constant": null,
+                      "visibility": null,
+                      "src": null,
+                      "stateVariable": null,
+                      "scope": null,
+                      "name": "a",
+                      "typeName": {
+                        "comments": null,
+                        "src": null,
+                        "name": "int32",
+                        "id": null,
+                        "nodeType": "ElementaryTypeName",
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "storageLocation": "default",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "integerLiteralExprDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": {
+                    "isPure": null,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "string",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "value": "a",
+                    "lValueRequested": false
+                  },
+                  "declarations": [
+                    {
+                      "constant": null,
+                      "visibility": null,
+                      "src": null,
+                      "stateVariable": null,
+                      "scope": null,
+                      "name": "ch",
+                      "typeName": {
+                        "comments": null,
+                        "src": null,
+                        "name": "byte",
+                        "id": null,
+                        "nodeType": "ElementaryTypeName",
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "storageLocation": "default",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "charLiteralExprDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": {
+                    "isPure": null,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "bool",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "value": true,
+                    "lValueRequested": false
+                  },
+                  "declarations": [
+                    {
+                      "constant": null,
+                      "visibility": null,
+                      "src": null,
+                      "stateVariable": null,
+                      "scope": null,
+                      "name": "b",
+                      "typeName": {
+                        "comments": null,
+                        "src": null,
+                        "name": "bool",
+                        "id": null,
+                        "nodeType": "ElementaryTypeName",
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "storageLocation": "default",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "booleanLiteralExprDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": {
+                    "isPure": null,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "number",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "value": "4",
+                    "lValueRequested": false
+                  },
+                  "declarations": [
+                    {
+                      "constant": null,
+                      "visibility": null,
+                      "src": null,
+                      "stateVariable": null,
+                      "scope": null,
+                      "name": "d",
+                      "typeName": {
+                        "comments": "//Converted from DOUBLE TYPE of Java",
+                        "src": null,
+                        "name": "int64",
+                        "id": null,
+                        "nodeType": "ElementaryTypeName",
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "storageLocation": "default",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "doubleLiteralExprDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        },
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "internal",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": {
+                    "isPure": null,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "string",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "value": "Hello",
+                    "lValueRequested": false
+                  },
+                  "declarations": [
+                    {
+                      "constant": null,
+                      "visibility": null,
+                      "src": null,
+                      "stateVariable": null,
+                      "scope": null,
+                      "name": "str",
+                      "typeName": {
+                        "src": null,
+                        "contractScope": null,
+                        "name": "String",
+                        "id": null,
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": null,
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "storageLocation": "memory",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "stringLiteralExprDemo",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        }
+      ],
+      "linearizedBaseContracts": [],
+      "src": null,
+      "contractDependencies": [],
+      "documentation": null,
+      "scope": null,
+      "name": "AllFeatures",
+      "id": null,
+      "nodeType": "ContractDefinition",
+      "baseContracts": [
+        {
+          "src": null,
+          "contractScope": null,
+          "name": "Example",
+          "id": null,
+          "nodeType": "UserDefinedTypeName",
+          "referencedDeclaration": null,
+          "typeDescriptions": {
+            "typeString": null,
+            "typeIdentifier": null
+          }
+        },
+        {
+          "src": null,
+          "contractScope": null,
+          "name": "Interface",
+          "id": null,
+          "nodeType": "UserDefinedTypeName",
+          "referencedDeclaration": null,
+          "typeDescriptions": {
+            "typeString": null,
+            "typeIdentifier": null
+          }
+        }
+      ]
+    },
+    null
+  ],
+  "src": null,
+  "absolutePath": null,
+  "exportedSymbols": null,
+  "id": null,
+  "nodeType": "SourceUnit"
+}

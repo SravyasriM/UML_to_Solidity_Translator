@@ -1,0 +1,20 @@
+{
+  "argumentTypes": [
+    {
+      "typeIdentifier": null,
+      "typeString": null
+    }
+  ],
+  "id": null,
+  "isConstant": null,
+  "isLValue": null,
+  "isPure": null,
+  "lValueRequested": null,
+  "nodeType": "ElementaryTypeNameExpression",
+  "src": null,
+  "typeDescriptions": {
+    "typeIdentifier": null,
+    "typeString": null
+  },
+  "typeName": null
+}

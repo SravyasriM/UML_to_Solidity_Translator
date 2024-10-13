@@ -1,0 +1,17 @@
+{
+  "argumentTypes": null,
+  "id": null,
+  "isConstant": null,
+  "isLValue": null,
+  "isPure": null,
+  "lValueRequested": null,
+  "nodeType": "UnaryOperation",
+  "operator": null,
+  "prefix": null,
+  "src": null,
+  "subExpression": null,
+  "typeDescriptions": {
+    "typeIdentifier": null,
+    "typeString": null
+  }
+}

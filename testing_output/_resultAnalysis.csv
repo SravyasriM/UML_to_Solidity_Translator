@@ -1,0 +1,22 @@
+File Path,File Name,LOC Java (including doc comments),LOC Java (excluding doc comments),No. of classes,No. of methods,Java code parsing time (seconds),AST to AST translation time (seconds),Memory usage (MB), Fail %,AST to Solidity code generation time (seconds),Memory usage (MB),LOC Solidity (including comments),LOC Solidity (excluding comments)
+D:\UML_translator\testing\default\Alhemicar.java,D:\UML_translator\testing\default\Alhemicar.java,12,12,1,2,0.15,0.02,6.44,0.00,0.01,7.40,23,23
+D:\UML_translator\testing\default\Bomba.java,D:\UML_translator\testing\default\Bomba.java,6,6,1,1,0.01,0.01,0.72,0.22,0.00,0.81,1,1
+D:\UML_translator\testing\default\BrzoKrivolinijski.java,D:\UML_translator\testing\default\BrzoKrivolinijski.java,9,9,1,2,0.00,0.01,0.69,0.23,0.00,0.69,1,1
+D:\UML_translator\testing\default\Drvo.java,D:\UML_translator\testing\default\Drvo.java,12,12,1,3,0.00,0.01,0.96,0.24,0.00,0.96,1,1
+D:\UML_translator\testing\default\Fragmet.java,D:\UML_translator\testing\default\Fragmet.java,23,23,1,6,0.00,0.01,1.78,0.00,0.00,2.18,37,37
+D:\UML_translator\testing\default\KrivudaviStapic.java,D:\UML_translator\testing\default\KrivudaviStapic.java,9,9,1,2,0.00,0.01,0.69,0.23,0.00,0.69,1,1
+D:\UML_translator\testing\default\Led.java,D:\UML_translator\testing\default\Led.java,12,12,1,3,0.00,0.01,1.59,0.24,0.00,1.59,1,1
+D:\UML_translator\testing\default\Ledenica.java,D:\UML_translator\testing\default\Ledenica.java,6,6,1,1,0.00,0.00,0.69,0.22,0.00,0.69,1,1
+D:\UML_translator\testing\default\MagicniStapic.java,D:\UML_translator\testing\default\MagicniStapic.java,15,15,1,4,0.00,0.01,1.38,0.00,0.00,1.79,25,25
+D:\UML_translator\testing\default\Magija.java,D:\UML_translator\testing\default\Magija.java,6,6,1,1,0.00,0.00,1.59,0.00,0.00,1.59,13,13
+D:\UML_translator\testing\default\Materijal.java,D:\UML_translator\testing\default\Materijal.java,12,12,1,3,0.00,0.01,0.00,0.00,0.00,0.54,21,21
+D:\UML_translator\testing\default\Metak.java,D:\UML_translator\testing\default\Metak.java,6,6,1,1,0.00,0.00,1.05,0.00,0.00,2.10,13,13
+D:\UML_translator\testing\default\PraviStapic.java,D:\UML_translator\testing\default\PraviStapic.java,9,9,1,2,0.00,0.01,0.00,0.00,0.00,1.05,17,17
+D:\UML_translator\testing\default\Projektil.java,D:\UML_translator\testing\default\Projektil.java,20,20,1,5,0.00,0.01,1.60,0.00,0.01,2.65,33,33
+D:\UML_translator\testing\default\SImulatorKretanja.java,D:\UML_translator\testing\default\SImulatorKretanja.java,25,25,1,7,0.00,0.00,1.09,0.00,0.00,1.50,43,43
+D:\UML_translator\testing\default\SporoPravolinijski.java,D:\UML_translator\testing\default\SporoPravolinijski.java,9,9,1,2,0.00,0.00,1.06,0.23,0.00,1.06,1,1
+D:\UML_translator\testing\default\Svet.java,D:\UML_translator\testing\default\Svet.java,22,22,1,6,0.00,0.00,2.10,0.00,0.00,2.51,39,39
+D:\UML_translator\testing\default\Vatra.java,D:\UML_translator\testing\default\Vatra.java,12,12,1,3,0.00,0.00,1.05,0.00,0.00,1.05,21,21
+D:\UML_translator\testing\default\Vazduh.java,D:\UML_translator\testing\default\Vazduh.java,12,12,1,3,0.00,0.00,1.05,0.00,0.00,1.46,21,21
+D:\UML_translator\testing\default\Voda.java,D:\UML_translator\testing\default\Voda.java,12,12,1,3,0.00,0.00,1.05,0.00,0.00,1.46,21,21
+D:\UML_translator\testing\default\ZakonKretanja.java,D:\UML_translator\testing\default\ZakonKretanja.java,9,9,1,2,0.00,0.00,1.05,0.00,0.00,1.05,17,17

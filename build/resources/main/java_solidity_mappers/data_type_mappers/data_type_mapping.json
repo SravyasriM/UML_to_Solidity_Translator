@@ -1,0 +1,11 @@
+{
+  "byte": "int8",
+  "short": "int16",
+  "int": "int32",
+  "long": "int64",
+  "float": "int32",
+  "double": "int64",
+  "boolean": "bool",
+  "char": "byte",
+  "String": "string"
+}

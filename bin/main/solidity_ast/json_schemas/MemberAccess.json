@@ -1,0 +1,17 @@
+{
+  "argumentTypes": null,
+  "expression": null,
+  "id": null,
+  "isConstant": null,
+  "isLValue": null,
+  "isPure": null,
+  "lValueRequested": null,
+  "memberName": null,
+  "nodeType": "MemberAccess",
+  "referencedDeclaration": null,
+  "src": null,
+  "typeDescriptions": {
+    "typeIdentifier": null,
+    "typeString": null
+  }
+}

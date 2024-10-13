@@ -1,0 +1,12 @@
+{
+  "body": {
+    "id": null,
+    "nodeType": "Block",
+    "src": null,
+    "statements": []
+  },
+  "condition": null,
+  "id": null,
+  "nodeType": "DoWhileStatement",
+  "src": null
+}

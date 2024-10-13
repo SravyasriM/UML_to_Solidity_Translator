@@ -1,0 +1,561 @@
+{
+  "nodes": [
+    {
+      "fullyImplemented": true,
+      "contractKind": "contract",
+      "nodes": [
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "public",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": [
+              {
+                "constant": null,
+                "visibility": "internal",
+                "src": null,
+                "stateVariable": null,
+                "scope": null,
+                "name": null,
+                "typeName": {
+                  "comments": null,
+                  "src": null,
+                  "name": "int32",
+                  "id": null,
+                  "nodeType": "ElementaryTypeName",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  }
+                },
+                "storageLocation": "default",
+                "id": null,
+                "nodeType": "VariableDeclaration",
+                "typeDescriptions": {
+                  "typeString": null,
+                  "typeIdentifier": null
+                },
+                "value": null
+              }
+            ]
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "condition": {
+                  "isPure": null,
+                  "src": null,
+                  "leftExpression": {
+                    "src": null,
+                    "overloadedDeclarations": [],
+                    "name": "n",
+                    "argumentTypes": null,
+                    "id": null,
+                    "nodeType": "Identifier",
+                    "referencedDeclaration": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    }
+                  },
+                  "rightExpression": {
+                    "isPure": null,
+                    "src": null,
+                    "subdenomination": null,
+                    "kind": "number",
+                    "hexValue": null,
+                    "nodeType": "Literal",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": null,
+                      "typeIdentifier": null
+                    },
+                    "value": "1",
+                    "lValueRequested": false
+                  },
+                  "nodeType": "BinaryOperation",
+                  "isLValue": null,
+                  "operator": "<=",
+                  "isConstant": null,
+                  "argumentTypes": null,
+                  "id": null,
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  },
+                  "lValueRequested": null,
+                  "commonType": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  }
+                },
+                "trueBody": {
+                  "src": null,
+                  "statements": [
+                    {
+                      "functionReturnParameters": null,
+                      "expression": {
+                        "isPure": null,
+                        "src": null,
+                        "subdenomination": null,
+                        "kind": "number",
+                        "hexValue": null,
+                        "nodeType": "Literal",
+                        "isLValue": null,
+                        "isConstant": null,
+                        "argumentTypes": null,
+                        "id": null,
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        },
+                        "value": "1",
+                        "lValueRequested": false
+                      },
+                      "src": null,
+                      "id": null,
+                      "nodeType": "Return"
+                    }
+                  ],
+                  "id": null,
+                  "nodeType": "Block"
+                },
+                "src": null,
+                "falseBody": {
+                  "src": null,
+                  "statements": [
+                    {
+                      "functionReturnParameters": null,
+                      "expression": {
+                        "isPure": null,
+                        "src": null,
+                        "leftExpression": {
+                          "src": null,
+                          "overloadedDeclarations": [],
+                          "name": "n",
+                          "argumentTypes": null,
+                          "id": null,
+                          "nodeType": "Identifier",
+                          "referencedDeclaration": null,
+                          "typeDescriptions": {
+                            "typeString": null,
+                            "typeIdentifier": null
+                          }
+                        },
+                        "rightExpression": {
+                          "expression": {
+                            "src": null,
+                            "overloadedDeclarations": [],
+                            "name": "fac",
+                            "argumentTypes": null,
+                            "id": null,
+                            "nodeType": "Identifier",
+                            "referencedDeclaration": null,
+                            "typeDescriptions": {
+                              "typeString": null,
+                              "typeIdentifier": null
+                            }
+                          },
+                          "isPure": null,
+                          "src": null,
+                          "kind": "functionCall",
+                          "nodeType": "FunctionCall",
+                          "isLValue": null,
+                          "isConstant": null,
+                          "names": [],
+                          "arguments": [
+                            {
+                              "isPure": null,
+                              "src": null,
+                              "leftExpression": {
+                                "src": null,
+                                "overloadedDeclarations": [],
+                                "name": "n",
+                                "argumentTypes": null,
+                                "id": null,
+                                "nodeType": "Identifier",
+                                "referencedDeclaration": null,
+                                "typeDescriptions": {
+                                  "typeString": null,
+                                  "typeIdentifier": null
+                                }
+                              },
+                              "rightExpression": {
+                                "isPure": null,
+                                "src": null,
+                                "subdenomination": null,
+                                "kind": "number",
+                                "hexValue": null,
+                                "nodeType": "Literal",
+                                "isLValue": null,
+                                "isConstant": null,
+                                "argumentTypes": null,
+                                "id": null,
+                                "typeDescriptions": {
+                                  "typeString": null,
+                                  "typeIdentifier": null
+                                },
+                                "value": "1",
+                                "lValueRequested": false
+                              },
+                              "nodeType": "BinaryOperation",
+                              "isLValue": null,
+                              "operator": "-",
+                              "isConstant": null,
+                              "argumentTypes": null,
+                              "id": null,
+                              "typeDescriptions": {
+                                "typeString": null,
+                                "typeIdentifier": null
+                              },
+                              "lValueRequested": null,
+                              "commonType": {
+                                "typeString": null,
+                                "typeIdentifier": null
+                              }
+                            }
+                          ],
+                          "argumentTypes": null,
+                          "id": null,
+                          "typeDescriptions": {
+                            "typeString": "tuple()",
+                            "typeIdentifier": "t_tuple$__$"
+                          },
+                          "lValueRequested": null
+                        },
+                        "nodeType": "BinaryOperation",
+                        "isLValue": null,
+                        "operator": "*",
+                        "isConstant": null,
+                        "argumentTypes": null,
+                        "id": null,
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        },
+                        "lValueRequested": null,
+                        "commonType": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "src": null,
+                      "id": null,
+                      "nodeType": "Return"
+                    }
+                  ],
+                  "id": null,
+                  "nodeType": "Block"
+                },
+                "id": null,
+                "nodeType": "IfStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "fac",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": [
+              {
+                "constant": null,
+                "visibility": null,
+                "src": null,
+                "stateVariable": null,
+                "scope": null,
+                "name": "n",
+                "typeName": {
+                  "comments": null,
+                  "src": null,
+                  "name": "int32",
+                  "id": null,
+                  "nodeType": "ElementaryTypeName",
+                  "typeDescriptions": {
+                    "typeString": null,
+                    "typeIdentifier": null
+                  }
+                },
+                "storageLocation": "default",
+                "id": null,
+                "nodeType": "VariableDeclaration",
+                "typeDescriptions": {
+                  "typeString": null,
+                  "typeIdentifier": null
+                },
+                "value": null
+              }
+            ]
+          }
+        }
+      ],
+      "linearizedBaseContracts": [],
+      "src": null,
+      "contractDependencies": [],
+      "documentation": null,
+      "scope": null,
+      "name": "Factorial",
+      "id": null,
+      "nodeType": "ContractDefinition",
+      "baseContracts": []
+    },
+    {
+      "fullyImplemented": true,
+      "contractKind": "contract",
+      "nodes": [
+        {
+          "comments": null,
+          "superFunction": null,
+          "visibility": "public",
+          "src": null,
+          "kind": "function",
+          "documentation": null,
+          "stateMutability": "nonpayable",
+          "returnParameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          },
+          "body": {
+            "src": null,
+            "statements": [
+              {
+                "expression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": {
+                    "expression": {
+                      "isConstant": null,
+                      "isPure": null,
+                      "src": null,
+                      "typeName": {
+                        "src": null,
+                        "contractScope": null,
+                        "name": "Factorial",
+                        "id": null,
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": null,
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "argumentTypes": [],
+                      "id": null,
+                      "nodeType": "NewExpression",
+                      "typeDescriptions": null,
+                      "isLValue": null,
+                      "lValueRequested": null
+                    },
+                    "isPure": null,
+                    "src": null,
+                    "kind": "functionCall",
+                    "nodeType": "FunctionCall",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "names": [],
+                    "arguments": [],
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": "tuple()",
+                      "typeIdentifier": "t_tuple$__$"
+                    },
+                    "lValueRequested": null
+                  },
+                  "declarations": [
+                    {
+                      "constant": null,
+                      "visibility": null,
+                      "src": null,
+                      "stateVariable": null,
+                      "scope": null,
+                      "name": "factorial",
+                      "typeName": {
+                        "src": null,
+                        "contractScope": null,
+                        "name": "Factorial",
+                        "id": null,
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": null,
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "storageLocation": "default",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              },
+              {
+                "expression": {
+                  "assignments": [],
+                  "src": null,
+                  "id": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "initialValue": {
+                    "expression": {
+                      "isConstant": null,
+                      "expression": {
+                        "src": null,
+                        "overloadedDeclarations": [],
+                        "name": "factorial",
+                        "argumentTypes": null,
+                        "id": null,
+                        "nodeType": "Identifier",
+                        "referencedDeclaration": null,
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "isPure": null,
+                      "src": null,
+                      "memberName": "fac",
+                      "argumentTypes": null,
+                      "id": null,
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "isLValue": null,
+                      "lValueRequested": null
+                    },
+                    "isPure": null,
+                    "src": null,
+                    "kind": "functionCall",
+                    "nodeType": "FunctionCall",
+                    "isLValue": null,
+                    "isConstant": null,
+                    "names": [],
+                    "arguments": [
+                      {
+                        "isPure": null,
+                        "src": null,
+                        "subdenomination": null,
+                        "kind": "number",
+                        "hexValue": null,
+                        "nodeType": "Literal",
+                        "isLValue": null,
+                        "isConstant": null,
+                        "argumentTypes": null,
+                        "id": null,
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        },
+                        "value": "10",
+                        "lValueRequested": false
+                      }
+                    ],
+                    "argumentTypes": null,
+                    "id": null,
+                    "typeDescriptions": {
+                      "typeString": "tuple()",
+                      "typeIdentifier": "t_tuple$__$"
+                    },
+                    "lValueRequested": null
+                  },
+                  "declarations": [
+                    {
+                      "constant": null,
+                      "visibility": null,
+                      "src": null,
+                      "stateVariable": null,
+                      "scope": null,
+                      "name": "fac",
+                      "typeName": {
+                        "comments": null,
+                        "src": null,
+                        "name": "int32",
+                        "id": null,
+                        "nodeType": "ElementaryTypeName",
+                        "typeDescriptions": {
+                          "typeString": null,
+                          "typeIdentifier": null
+                        }
+                      },
+                      "storageLocation": "default",
+                      "id": null,
+                      "nodeType": "VariableDeclaration",
+                      "typeDescriptions": {
+                        "typeString": null,
+                        "typeIdentifier": null
+                      },
+                      "value": null
+                    }
+                  ]
+                },
+                "src": null,
+                "id": null,
+                "nodeType": "ExpressionStatement"
+              }
+            ],
+            "id": null,
+            "nodeType": "Block"
+          },
+          "modifiers": [],
+          "nodeType": "FunctionDefinition",
+          "scope": null,
+          "implemented": true,
+          "name": "main",
+          "id": null,
+          "parameters": {
+            "src": null,
+            "id": null,
+            "nodeType": "ParameterList",
+            "parameters": []
+          }
+        }
+      ],
+      "linearizedBaseContracts": [],
+      "src": null,
+      "contractDependencies": [],
+      "documentation": null,
+      "scope": null,
+      "name": "Main",
+      "id": null,
+      "nodeType": "ContractDefinition",
+      "baseContracts": []
+    }
+  ],
+  "src": null,
+  "absolutePath": null,
+  "exportedSymbols": null,
+  "id": null,
+  "nodeType": "SourceUnit"
+}

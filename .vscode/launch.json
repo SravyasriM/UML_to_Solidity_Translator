@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch JavaToSolidityTranslator",
+            "request": "launch",
+            "mainClass": "org.iitp.pl.JavaToSolidityTranslator",
+            "projectName": "JAVA_TO_SOLIDITY-master",
+            "args": [
+                "/home/kartik/JAVA_TO_SOLIDITY-master/testing",
+                "/home/kartik/JAVA_TO_SOLIDITY-master/testing_output"
+            ]
+        }
+    ]
+}

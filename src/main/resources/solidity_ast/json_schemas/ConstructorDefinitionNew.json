@@ -1,0 +1,107 @@
+{
+          "body":
+          {
+            "id": 9,
+            "nodeType": "Block",
+            "src": "101:8:0",
+            "statements": []
+          },
+          "documentation": null,
+          "id": 10,
+          "implemented": true,
+          "kind": "constructor",
+          "modifiers": [],
+          "name": "",
+          "nodeType": "FunctionDefinition",
+          "parameters":
+          {
+            "id": 7,
+            "nodeType": "ParameterList",
+            "parameters":
+            [
+              {
+                "constant": false,
+                "id": 3,
+                "name": "n",
+                "nodeType": "VariableDeclaration",
+                "scope": 10,
+                "src": "62:5:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions":
+                {
+                  "typeIdentifier": "t_int256",
+                  "typeString": "int256"
+                },
+                "typeName":
+                {
+                  "id": 2,
+                  "name": "int",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "62:3:0",
+                  "typeDescriptions":
+                  {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 6,
+                "name": "param",
+                "nodeType": "VariableDeclaration",
+                "scope": 10,
+                "src": "68:22:0",
+                "stateVariable": false,
+                "storageLocation": "memory",
+                "typeDescriptions":
+                {
+                  "typeIdentifier": "t_array$_t_bytes32_$dyn_memory_ptr",
+                  "typeString": "bytes32[]"
+                },
+                "typeName":
+                {
+                  "baseType":
+                  {
+                    "id": 4,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "68:7:0",
+                    "typeDescriptions":
+                    {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "id": 5,
+                  "length": null,
+                  "nodeType": "ArrayTypeName",
+                  "src": "68:9:0",
+                  "typeDescriptions":
+                  {
+                    "typeIdentifier": "t_array$_t_bytes32_$dyn_storage_ptr",
+                    "typeString": "bytes32[]"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "src": "61:30:0"
+          },
+          "returnParameters":
+          {
+            "id": 8,
+            "nodeType": "ParameterList",
+            "parameters": [],
+            "src": "101:0:0"
+          },
+          "scope": 11,
+          "src": "50:59:0",
+          "stateMutability": "nonpayable",
+          "superFunction": null,
+          "visibility": "internal"
+}

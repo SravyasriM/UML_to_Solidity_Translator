@@ -1,0 +1,7 @@
+{
+  "EQUALS": "==",
+  "LESS": "<",
+  "GREATER": ">",
+  "LESS_EQUALS": "<=",
+  "GREATER_EQUALS": ">="
+}

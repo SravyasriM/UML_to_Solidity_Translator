@@ -1,0 +1,150 @@
+---
+root(Type=CompilationUnit):
+  types:
+    - type(Type=ClassOrInterfaceDeclaration):
+        isInterface: "false"
+        name(Type=SimpleName):
+          identifier: "LinearSearch"
+        members:
+          - member(Type=MethodDeclaration):
+              body(Type=BlockStmt):
+                statements:
+                  - statement(Type=ExpressionStmt):
+                      expression(Type=VariableDeclarationExpr):
+                        variables:
+                          - variable(Type=VariableDeclarator):
+                              initializer(Type=ArrayInitializerExpr):
+                                values:
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "1"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "5"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "3"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "2"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "9"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "4"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "8"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "7"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "10"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "6"
+                              name(Type=SimpleName):
+                                identifier: "arr"
+                              type(Type=ArrayType):
+                                origin: "TYPE"
+                                componentType(Type=PrimitiveType):
+                                  type: "INT"
+                  - statement(Type=ExpressionStmt):
+                      expression(Type=VariableDeclarationExpr):
+                        variables:
+                          - variable(Type=VariableDeclarator):
+                              initializer(Type=UnaryExpr):
+                                operator: "MINUS"
+                                expression(Type=IntegerLiteralExpr):
+                                  value: "1"
+                              name(Type=SimpleName):
+                                identifier: "idx"
+                              type(Type=PrimitiveType):
+                                type: "INT"
+                  - statement(Type=ForStmt):
+                      body(Type=BlockStmt):
+                        statements:
+                          - statement(Type=IfStmt):
+                              condition(Type=BinaryExpr):
+                                operator: "EQUALS"
+                                left(Type=ArrayAccessExpr):
+                                  index(Type=NameExpr):
+                                    name(Type=SimpleName):
+                                      identifier: "i"
+                                  name(Type=NameExpr):
+                                    name(Type=SimpleName):
+                                      identifier: "arr"
+                                right(Type=NameExpr):
+                                  name(Type=SimpleName):
+                                    identifier: "ele"
+                              thenStmt(Type=BlockStmt):
+                                statements:
+                                  - statement(Type=ExpressionStmt):
+                                      expression(Type=AssignExpr):
+                                        operator: "ASSIGN"
+                                        target(Type=NameExpr):
+                                          name(Type=SimpleName):
+                                            identifier: "idx"
+                                        value(Type=NameExpr):
+                                          name(Type=SimpleName):
+                                            identifier: "i"
+                                  - statement(Type=BreakStmt):
+                      compare(Type=BinaryExpr):
+                        operator: "LESS"
+                        left(Type=NameExpr):
+                          name(Type=SimpleName):
+                            identifier: "i"
+                        right(Type=IntegerLiteralExpr):
+                          value: "10"
+                      initialization:
+                        - initialization(Type=VariableDeclarationExpr):
+                            variables:
+                              - variable(Type=VariableDeclarator):
+                                  initializer(Type=IntegerLiteralExpr):
+                                    value: "0"
+                                  name(Type=SimpleName):
+                                    identifier: "i"
+                                  type(Type=PrimitiveType):
+                                    type: "INT"
+                      update:
+                        - update(Type=UnaryExpr):
+                            operator: "POSTFIX_INCREMENT"
+                            expression(Type=NameExpr):
+                              name(Type=SimpleName):
+                                identifier: "i"
+                  - statement(Type=ReturnStmt):
+                      expression(Type=NameExpr):
+                        name(Type=SimpleName):
+                          identifier: "idx"
+              type(Type=PrimitiveType):
+                type: "INT"
+              name(Type=SimpleName):
+                identifier: "search"
+              modifiers:
+                - modifier(Type=Modifier):
+                    keyword: "STATIC"
+              parameters:
+                - parameter(Type=Parameter):
+                    isVarArgs: "false"
+                    name(Type=SimpleName):
+                      identifier: "ele"
+                    type(Type=PrimitiveType):
+                      type: "INT"
+          - member(Type=MethodDeclaration):
+              body(Type=BlockStmt):
+                statements:
+                  - statement(Type=ExpressionStmt):
+                      expression(Type=VariableDeclarationExpr):
+                        variables:
+                          - variable(Type=VariableDeclarator):
+                              initializer(Type=MethodCallExpr):
+                                name(Type=SimpleName):
+                                  identifier: "search"
+                                arguments:
+                                  - argument(Type=IntegerLiteralExpr):
+                                      value: "5"
+                              name(Type=SimpleName):
+                                identifier: "idx"
+                              type(Type=PrimitiveType):
+                                type: "INT"
+              type(Type=VoidType):
+              name(Type=SimpleName):
+                identifier: "main"
+              modifiers:
+                - modifier(Type=Modifier):
+                    keyword: "PUBLIC"
+                - modifier(Type=Modifier):
+                    keyword: "STATIC"
+...

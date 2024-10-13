@@ -1,0 +1,161 @@
+{
+  "nodes" : [ {
+    "src" : "",
+    "literals" : [ "solidity", "^", "0.5", ".11" ],
+    "id" : "",
+    "nodeType" : "PragmaDirective"
+  }, {
+    "fullyImplemented" : true,
+    "contractKind" : "contract",
+    "src" : null,
+    "documentation" : null,
+    "abstract" : false,
+    "nodeType" : "ContractDefinition",
+    "nodes" : [ {
+      "comments" : null,
+      "superFunction" : null,
+      "visibility" : "public",
+      "src" : null,
+      "kind" : "function",
+      "documentation" : null,
+      "stateMutability" : "nonpayable",
+      "returnParameters" : {
+        "src" : null,
+        "id" : null,
+        "nodeType" : "ParameterList",
+        "parameters" : [ {
+          "constant" : null,
+          "visibility" : "internal",
+          "src" : null,
+          "stateVariable" : null,
+          "typeName" : {
+            "comments" : null,
+            "src" : null,
+            "name" : "int32",
+            "id" : null,
+            "nodeType" : "ElementaryTypeName",
+            "typeDescriptions" : {
+              "typeString" : null,
+              "typeIdentifier" : null
+            }
+          },
+          "storageLocation" : "default",
+          "nodeType" : "VariableDeclaration",
+          "scope" : null,
+          "name" : null,
+          "id" : null,
+          "mutability" : null,
+          "typeDescriptions" : {
+            "typeString" : null,
+            "typeIdentifier" : null
+          },
+          "value" : null
+        } ]
+      },
+      "overrides" : null,
+      "body" : {
+        "src" : null,
+        "statements" : [ ],
+        "id" : null,
+        "nodeType" : "Block"
+      },
+      "modifiers" : [ ],
+      "nodeType" : "FunctionDefinition",
+      "scope" : null,
+      "implemented" : true,
+      "name" : "pomerajX",
+      "id" : null,
+      "parameters" : {
+        "src" : null,
+        "id" : null,
+        "nodeType" : "ParameterList",
+        "parameters" : [ ]
+      }
+    }, {
+      "comments" : null,
+      "superFunction" : null,
+      "visibility" : "public",
+      "src" : null,
+      "kind" : "function",
+      "documentation" : null,
+      "stateMutability" : "nonpayable",
+      "returnParameters" : {
+        "src" : null,
+        "id" : null,
+        "nodeType" : "ParameterList",
+        "parameters" : [ {
+          "constant" : null,
+          "visibility" : "internal",
+          "src" : null,
+          "stateVariable" : null,
+          "typeName" : {
+            "comments" : null,
+            "src" : null,
+            "name" : "int32",
+            "id" : null,
+            "nodeType" : "ElementaryTypeName",
+            "typeDescriptions" : {
+              "typeString" : null,
+              "typeIdentifier" : null
+            }
+          },
+          "storageLocation" : "default",
+          "nodeType" : "VariableDeclaration",
+          "scope" : null,
+          "name" : null,
+          "id" : null,
+          "mutability" : null,
+          "typeDescriptions" : {
+            "typeString" : null,
+            "typeIdentifier" : null
+          },
+          "value" : null
+        } ]
+      },
+      "overrides" : null,
+      "body" : {
+        "src" : null,
+        "statements" : [ ],
+        "id" : null,
+        "nodeType" : "Block"
+      },
+      "modifiers" : [ ],
+      "nodeType" : "FunctionDefinition",
+      "scope" : null,
+      "implemented" : true,
+      "name" : "pomerajY",
+      "id" : null,
+      "parameters" : {
+        "src" : null,
+        "id" : null,
+        "nodeType" : "ParameterList",
+        "parameters" : [ ]
+      }
+    } ],
+    "linearizedBaseContracts" : [ ],
+    "contractDependencies" : [ ],
+    "scope" : null,
+    "name" : "ZakonKretanja",
+    "id" : null,
+    "baseContracts" : [ ]
+  }, {
+    "fullyImplemented" : true,
+    "contractKind" : "library",
+    "src" : null,
+    "documentation" : null,
+    "abstract" : false,
+    "nodeType" : "ContractDefinition",
+    "nodes" : [ ],
+    "linearizedBaseContracts" : [ ],
+    "contractDependencies" : [ ],
+    "scope" : null,
+    "name" : "ZakonKretanja_Library",
+    "id" : null,
+    "baseContracts" : [ ]
+  } ],
+  "src" : null,
+  "absolutePath" : null,
+  "exportedSymbols" : null,
+  "id" : null,
+  "nodeType" : "SourceUnit"
+}

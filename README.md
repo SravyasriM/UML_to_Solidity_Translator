@@ -1,2 +1,5 @@
-# UML_to_Solidity_Translator
- Developed a UML class diagram to Solidity code translator, combining a UML-to-Java translator with a Java-to- Solidity translator, automating the conversion process and reducing manual coding time by 40%.
+# Java-to-Solidity-Translator
+![Java CI with Gradle](https://github.com/codeBlooded29/Java-to-Solidity-Translator/workflows/Java%20CI%20with%20Gradle/badge.svg)
+
+An AST to AST based source code translator
+.

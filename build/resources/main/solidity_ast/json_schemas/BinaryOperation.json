@@ -1,0 +1,21 @@
+{
+  "argumentTypes": null,
+  "commonType": {
+    "typeIdentifier": null,
+    "typeString": null
+  },
+  "id": null,
+  "isConstant": null,
+  "isLValue": null,
+  "isPure": null,
+  "lValueRequested": null,
+  "leftExpression": null,
+  "nodeType": "BinaryOperation",
+  "operator": null,
+  "rightExpression": null,
+  "src": null,
+  "typeDescriptions": {
+    "typeIdentifier": null,
+    "typeString": null
+  }
+}

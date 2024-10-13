@@ -1,0 +1,6 @@
+{
+  "public": "public",
+  "private": "private",
+  "protected": "internal",
+  "default": "public"
+}

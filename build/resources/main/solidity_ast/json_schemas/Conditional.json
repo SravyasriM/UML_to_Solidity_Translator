@@ -1,0 +1,17 @@
+{
+  "argumentTypes": null,
+  "condition": null,
+  "falseExpression": null,
+  "id": null,
+  "isConstant": null,
+  "isLValue": null,
+  "isPure": null,
+  "lValueRequested": null,
+  "nodeType": "Conditional",
+  "src": null,
+  "trueExpression": null,
+  "typeDescriptions": {
+    "typeIdentifier": null,
+    "typeString": null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "argumentTypes": null,
+  "hexValue": null,
+  "id": null,
+  "isConstant": null,
+  "isLValue": null,
+  "isPure": null,
+  "kind": null,
+  "lValueRequested": false,
+  "nodeType": "Literal",
+  "src": null,
+  "subdenomination": null,
+  "typeDescriptions": {
+    "typeIdentifier": null,
+    "typeString": null
+  },
+  "value": null
+}

@@ -1,0 +1,223 @@
+{
+  "table" : [ {
+    "a) Java program" : "BigDecimal.java",
+    "b) LOC Java (including comments)" : 4933,
+    "c) LOC Java (excluding comments)" : 2644,
+    "d) Java code parsing time (seconds)" : "3.18",
+    "e) AST to AST translation time (seconds)" : "8.22",
+    "f) AST to Solidity code generation time (seconds)" : "5.99",
+    "g) Memory usage (MB)" : "47.54",
+    "h) LOC Solidity (including comments)" : 4747,
+    "i) LOC Solidity (excluding comments)" : 2623,
+    "j) Fail %" : "0.03"
+  }, {
+    "a) Java program" : "MutableBigInteger.java",
+    "b) LOC Java (including comments)" : 1977,
+    "c) LOC Java (excluding comments)" : 1399,
+    "d) Java code parsing time (seconds)" : "1.88",
+    "e) AST to AST translation time (seconds)" : "6.65",
+    "f) AST to Solidity code generation time (seconds)" : "3.98",
+    "g) Memory usage (MB)" : "67.74",
+    "h) LOC Solidity (including comments)" : 2013,
+    "i) LOC Solidity (excluding comments)" : 1491,
+    "j) Fail %" : "0.01"
+  }, {
+    "a) Java program" : "Integer.java",
+    "b) LOC Java (including comments)" : 1497,
+    "c) LOC Java (excluding comments)" : 452,
+    "d) Java code parsing time (seconds)" : "1.20",
+    "e) AST to AST translation time (seconds)" : "2.15",
+    "f) AST to Solidity code generation time (seconds)" : "1.23",
+    "g) Memory usage (MB)" : "32.31",
+    "h) LOC Solidity (including comments)" : 1478,
+    "i) LOC Solidity (excluding comments)" : 495,
+    "j) Fail %" : "0.02"
+  }, {
+    "a) Java program" : "Double.java",
+    "b) LOC Java (including comments)" : 1003,
+    "c) LOC Java (excluding comments)" : 149,
+    "d) Java code parsing time (seconds)" : "0.91",
+    "e) AST to AST translation time (seconds)" : "0.97",
+    "f) AST to Solidity code generation time (seconds)" : "0.29",
+    "g) Memory usage (MB)" : "21.30",
+    "h) LOC Solidity (including comments)" : 924,
+    "i) LOC Solidity (excluding comments)" : 159,
+    "j) Fail %" : "0.01"
+  }, {
+    "a) Java program" : "BigInteger.java",
+    "b) LOC Java (including comments)" : 3916,
+    "c) LOC Java (excluding comments)" : 2289,
+    "d) Java code parsing time (seconds)" : "2.14",
+    "e) AST to AST translation time (seconds)" : "6.54",
+    "f) AST to Solidity code generation time (seconds)" : "4.67",
+    "g) Memory usage (MB)" : "120.77",
+    "h) LOC Solidity (including comments)" : 3290,
+    "i) LOC Solidity (excluding comments)" : 1997,
+    "j) Fail %" : "0.02"
+  }, {
+    "a) Java program" : "LocalDateTime.java",
+    "b) LOC Java (including comments)" : 1914,
+    "c) LOC Java (excluding comments)" : 530,
+    "d) Java code parsing time (seconds)" : "2.41",
+    "e) AST to AST translation time (seconds)" : "2.25",
+    "f) AST to Solidity code generation time (seconds)" : "1.14",
+    "g) Memory usage (MB)" : "30.71",
+    "h) LOC Solidity (including comments)" : 1758,
+    "i) LOC Solidity (excluding comments)" : 457,
+    "j) Fail %" : "0.04"
+  }, {
+    "a) Java program" : "OffsetDateTime.java",
+    "b) LOC Java (including comments)" : 1850,
+    "c) LOC Java (excluding comments)" : 452,
+    "d) Java code parsing time (seconds)" : "1.20",
+    "e) AST to AST translation time (seconds)" : "2.28",
+    "f) AST to Solidity code generation time (seconds)" : "0.86",
+    "g) Memory usage (MB)" : "25.60",
+    "h) LOC Solidity (including comments)" : 1777,
+    "i) LOC Solidity (excluding comments)" : 470,
+    "j) Fail %" : "0.04"
+  }, {
+    "a) Java program" : "Character.java",
+    "b) LOC Java (including comments)" : 6704,
+    "c) LOC Java (excluding comments)" : 2748,
+    "d) Java code parsing time (seconds)" : "2.61",
+    "e) AST to AST translation time (seconds)" : "7.11",
+    "f) AST to Solidity code generation time (seconds)" : "2.88",
+    "g) Memory usage (MB)" : "41.77",
+    "h) LOC Solidity (including comments)" : 4470,
+    "i) LOC Solidity (excluding comments)" : 911,
+    "j) Fail %" : "0.02"
+  }, {
+    "a) Java program" : "Class.java",
+    "b) LOC Java (including comments)" : 3259,
+    "c) LOC Java (excluding comments)" : 1360,
+    "d) Java code parsing time (seconds)" : "2.06",
+    "e) AST to AST translation time (seconds)" : "4.10",
+    "f) AST to Solidity code generation time (seconds)" : "1.27",
+    "g) Memory usage (MB)" : "34.04",
+    "h) LOC Solidity (including comments)" : 2081,
+    "i) LOC Solidity (excluding comments)" : 860,
+    "j) Fail %" : "0.09"
+  }, {
+    "a) Java program" : "Math.java",
+    "b) LOC Java (including comments)" : 2256,
+    "c) LOC Java (excluding comments)" : 496,
+    "d) Java code parsing time (seconds)" : "1.31",
+    "e) AST to AST translation time (seconds)" : "2.37",
+    "f) AST to Solidity code generation time (seconds)" : "1.02",
+    "g) Memory usage (MB)" : "19.71",
+    "h) LOC Solidity (including comments)" : 2109,
+    "i) LOC Solidity (excluding comments)" : 541,
+    "j) Fail %" : "0.02"
+  }, {
+    "a) Java program" : "ZonedDateTime.java",
+    "b) LOC Java (including comments)" : 2153,
+    "c) LOC Java (excluding comments)" : 509,
+    "d) Java code parsing time (seconds)" : "2.06",
+    "e) AST to AST translation time (seconds)" : "2.05",
+    "f) AST to Solidity code generation time (seconds)" : "0.86",
+    "g) Memory usage (MB)" : "19.22",
+    "h) LOC Solidity (including comments)" : 2039,
+    "i) LOC Solidity (excluding comments)" : 483,
+    "j) Fail %" : "0.04"
+  }, {
+    "a) Java program" : "LocalDate.java",
+    "b) LOC Java (including comments)" : 1989,
+    "c) LOC Java (excluding comments)" : 635,
+    "d) Java code parsing time (seconds)" : "1.27",
+    "e) AST to AST translation time (seconds)" : "2.86",
+    "f) AST to Solidity code generation time (seconds)" : "0.94",
+    "g) Memory usage (MB)" : "83.66",
+    "h) LOC Solidity (including comments)" : 1812,
+    "i) LOC Solidity (excluding comments)" : 561,
+    "j) Fail %" : "0.05"
+  }, {
+    "a) Java program" : "String.java",
+    "b) LOC Java (including comments)" : 3016,
+    "c) LOC Java (excluding comments)" : 948,
+    "d) Java code parsing time (seconds)" : "1.43",
+    "e) AST to AST translation time (seconds)" : "3.38",
+    "f) AST to Solidity code generation time (seconds)" : "1.63",
+    "g) Memory usage (MB)" : "33.02",
+    "h) LOC Solidity (including comments)" : 2862,
+    "i) LOC Solidity (excluding comments)" : 912,
+    "j) Fail %" : "0.03"
+  }, {
+    "a) Java program" : "MethodHandles.java",
+    "b) LOC Java (including comments)" : 2748,
+    "c) LOC Java (excluding comments)" : 852,
+    "d) Java code parsing time (seconds)" : "1.61",
+    "e) AST to AST translation time (seconds)" : "3.34",
+    "f) AST to Solidity code generation time (seconds)" : "1.99",
+    "g) Memory usage (MB)" : "33.28",
+    "h) LOC Solidity (including comments)" : 2699,
+    "i) LOC Solidity (excluding comments)" : 811,
+    "j) Fail %" : "0.03"
+  }, {
+    "a) Java program" : "MethodHandle.java",
+    "b) LOC Java (including comments)" : 1448,
+    "c) LOC Java (excluding comments)" : 286,
+    "d) Java code parsing time (seconds)" : "1.42",
+    "e) AST to AST translation time (seconds)" : "1.76",
+    "f) AST to Solidity code generation time (seconds)" : "0.52",
+    "g) Memory usage (MB)" : "31.20",
+    "h) LOC Solidity (including comments)" : 1388,
+    "i) LOC Solidity (excluding comments)" : 309,
+    "j) Fail %" : "0.06"
+  }, {
+    "a) Java program" : "ObjectInputStream.java",
+    "b) LOC Java (including comments)" : 3244,
+    "c) LOC Java (excluding comments)" : 1939,
+    "d) Java code parsing time (seconds)" : "1.92",
+    "e) AST to AST translation time (seconds)" : "4.67",
+    "f) AST to Solidity code generation time (seconds)" : "2.91",
+    "g) Memory usage (MB)" : "48.13",
+    "h) LOC Solidity (including comments)" : 2990,
+    "i) LOC Solidity (excluding comments)" : 1746,
+    "j) Fail %" : "0.03"
+  }, {
+    "a) Java program" : "ObjectStreamClass.java",
+    "b) LOC Java (including comments)" : 2140,
+    "c) LOC Java (excluding comments)" : 1520,
+    "d) Java code parsing time (seconds)" : "1.63",
+    "e) AST to AST translation time (seconds)" : "3.60",
+    "f) AST to Solidity code generation time (seconds)" : "1.05",
+    "g) Memory usage (MB)" : "13.96",
+    "h) LOC Solidity (including comments)" : 1299,
+    "i) LOC Solidity (excluding comments)" : 807,
+    "j) Fail %" : "0.07"
+  }, {
+    "a) Java program" : "Component.java",
+    "b) LOC Java (including comments)" : 9408,
+    "c) LOC Java (excluding comments)" : 4562,
+    "d) Java code parsing time (seconds)" : "2.53",
+    "e) AST to AST translation time (seconds)" : "6.41",
+    "f) AST to Solidity code generation time (seconds)" : "3.97",
+    "g) Memory usage (MB)" : "79.85",
+    "h) LOC Solidity (including comments)" : 7311,
+    "i) LOC Solidity (excluding comments)" : 3112,
+    "j) Fail %" : "0.08"
+  }, {
+    "a) Java program" : "Container.java",
+    "b) LOC Java (including comments)" : 4606,
+    "c) LOC Java (excluding comments)" : 2533,
+    "d) Java code parsing time (seconds)" : "2.01",
+    "e) AST to AST translation time (seconds)" : "3.80",
+    "f) AST to Solidity code generation time (seconds)" : "2.42",
+    "g) Memory usage (MB)" : "76.14",
+    "h) LOC Solidity (including comments)" : 3326,
+    "i) LOC Solidity (excluding comments)" : 1576,
+    "j) Fail %" : "0.08"
+  }, {
+    "a) Java program" : "Window.java",
+    "b) LOC Java (including comments)" : 3837,
+    "c) LOC Java (excluding comments)" : 1675,
+    "d) Java code parsing time (seconds)" : "2.33",
+    "e) AST to AST translation time (seconds)" : "3.98",
+    "f) AST to Solidity code generation time (seconds)" : "1.69",
+    "g) Memory usage (MB)" : "23.62",
+    "h) LOC Solidity (including comments)" : 3121,
+    "i) LOC Solidity (excluding comments)" : 1206,
+    "j) Fail %" : "0.08"
+  } ]
+}

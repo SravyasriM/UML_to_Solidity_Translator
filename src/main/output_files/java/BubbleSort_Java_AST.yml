@@ -1,0 +1,173 @@
+---
+root(Type=CompilationUnit):
+  types:
+    - type(Type=ClassOrInterfaceDeclaration):
+        isInterface: "false"
+        name(Type=SimpleName):
+          identifier: "BubbleSort"
+        members:
+          - member(Type=MethodDeclaration):
+              body(Type=BlockStmt):
+                statements:
+                  - statement(Type=ExpressionStmt):
+                      expression(Type=VariableDeclarationExpr):
+                        variables:
+                          - variable(Type=VariableDeclarator):
+                              initializer(Type=ArrayInitializerExpr):
+                                values:
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "10"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "5"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "4"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "1"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "6"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "2"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "9"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "3"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "8"
+                                  - value(Type=IntegerLiteralExpr):
+                                      value: "7"
+                              name(Type=SimpleName):
+                                identifier: "arr"
+                              type(Type=ArrayType):
+                                origin: "TYPE"
+                                componentType(Type=PrimitiveType):
+                                  type: "INT"
+                  - statement(Type=ForStmt):
+                      body(Type=BlockStmt):
+                        statements:
+                          - statement(Type=ForStmt):
+                              body(Type=BlockStmt):
+                                statements:
+                                  - statement(Type=IfStmt):
+                                      condition(Type=BinaryExpr):
+                                        operator: "LESS"
+                                        left(Type=ArrayAccessExpr):
+                                          index(Type=NameExpr):
+                                            name(Type=SimpleName):
+                                              identifier: "j"
+                                          name(Type=NameExpr):
+                                            name(Type=SimpleName):
+                                              identifier: "arr"
+                                        right(Type=ArrayAccessExpr):
+                                          index(Type=NameExpr):
+                                            name(Type=SimpleName):
+                                              identifier: "i"
+                                          name(Type=NameExpr):
+                                            name(Type=SimpleName):
+                                              identifier: "arr"
+                                      thenStmt(Type=BlockStmt):
+                                        statements:
+                                          - statement(Type=ExpressionStmt):
+                                              expression(Type=VariableDeclarationExpr):
+                                                variables:
+                                                  - variable(Type=VariableDeclarator):
+                                                      initializer(Type=ArrayAccessExpr):
+                                                        index(Type=NameExpr):
+                                                          name(Type=SimpleName):
+                                                            identifier: "i"
+                                                        name(Type=NameExpr):
+                                                          name(Type=SimpleName):
+                                                            identifier: "arr"
+                                                      name(Type=SimpleName):
+                                                        identifier: "temp"
+                                                      type(Type=PrimitiveType):
+                                                        type: "INT"
+                                          - statement(Type=ExpressionStmt):
+                                              expression(Type=AssignExpr):
+                                                operator: "ASSIGN"
+                                                target(Type=ArrayAccessExpr):
+                                                  index(Type=NameExpr):
+                                                    name(Type=SimpleName):
+                                                      identifier: "i"
+                                                  name(Type=NameExpr):
+                                                    name(Type=SimpleName):
+                                                      identifier: "arr"
+                                                value(Type=ArrayAccessExpr):
+                                                  index(Type=NameExpr):
+                                                    name(Type=SimpleName):
+                                                      identifier: "j"
+                                                  name(Type=NameExpr):
+                                                    name(Type=SimpleName):
+                                                      identifier: "arr"
+                                          - statement(Type=ExpressionStmt):
+                                              expression(Type=AssignExpr):
+                                                operator: "ASSIGN"
+                                                target(Type=ArrayAccessExpr):
+                                                  index(Type=NameExpr):
+                                                    name(Type=SimpleName):
+                                                      identifier: "j"
+                                                  name(Type=NameExpr):
+                                                    name(Type=SimpleName):
+                                                      identifier: "arr"
+                                                value(Type=NameExpr):
+                                                  name(Type=SimpleName):
+                                                    identifier: "temp"
+                              compare(Type=BinaryExpr):
+                                operator: "LESS"
+                                left(Type=NameExpr):
+                                  name(Type=SimpleName):
+                                    identifier: "j"
+                                right(Type=IntegerLiteralExpr):
+                                  value: "10"
+                              initialization:
+                                - initialization(Type=VariableDeclarationExpr):
+                                    variables:
+                                      - variable(Type=VariableDeclarator):
+                                          initializer(Type=BinaryExpr):
+                                            operator: "PLUS"
+                                            left(Type=NameExpr):
+                                              name(Type=SimpleName):
+                                                identifier: "i"
+                                            right(Type=IntegerLiteralExpr):
+                                              value: "1"
+                                          name(Type=SimpleName):
+                                            identifier: "j"
+                                          type(Type=PrimitiveType):
+                                            type: "INT"
+                              update:
+                                - update(Type=UnaryExpr):
+                                    operator: "POSTFIX_INCREMENT"
+                                    expression(Type=NameExpr):
+                                      name(Type=SimpleName):
+                                        identifier: "j"
+                      compare(Type=BinaryExpr):
+                        operator: "LESS"
+                        left(Type=NameExpr):
+                          name(Type=SimpleName):
+                            identifier: "i"
+                        right(Type=IntegerLiteralExpr):
+                          value: "9"
+                      initialization:
+                        - initialization(Type=VariableDeclarationExpr):
+                            variables:
+                              - variable(Type=VariableDeclarator):
+                                  initializer(Type=IntegerLiteralExpr):
+                                    value: "0"
+                                  name(Type=SimpleName):
+                                    identifier: "i"
+                                  type(Type=PrimitiveType):
+                                    type: "INT"
+                      update:
+                        - update(Type=UnaryExpr):
+                            operator: "POSTFIX_INCREMENT"
+                            expression(Type=NameExpr):
+                              name(Type=SimpleName):
+                                identifier: "i"
+              type(Type=VoidType):
+              name(Type=SimpleName):
+                identifier: "sort"
+              modifiers:
+                - modifier(Type=Modifier):
+                    keyword: "PUBLIC"
+                - modifier(Type=Modifier):
+                    keyword: "STATIC"
+...

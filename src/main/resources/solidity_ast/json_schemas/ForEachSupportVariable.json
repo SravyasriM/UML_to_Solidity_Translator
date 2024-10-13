@@ -1,0 +1,47 @@
+{
+  "assignments": [],
+  "declarations": [],
+  "id": null,
+  "initialValue": {
+    "argumentTypes": null,
+    "baseExpression": {
+      "argumentTypes": null,
+      "id": null,
+      "name": null,
+      "nodeType": "Identifier",
+      "overloadedDeclarations": [],
+      "referencedDeclaration": null,
+      "src": null,
+      "typeDescriptions": {
+        "typeIdentifier": "t_array$_t_int256_$dyn_memory_ptr",
+        "typeString": "int256[] memory"
+      }
+    },
+    "id": null,
+    "indexExpression": {
+      "argumentTypes": null,
+      "id": null,
+      "name": "iterator_var",
+      "nodeType": "Identifier",
+      "overloadedDeclarations": [],
+      "referencedDeclaration": null,
+      "src": null,
+      "typeDescriptions": {
+        "typeIdentifier": "t_uint256",
+        "typeString": "uint256"
+      }
+    },
+    "isConstant": false,
+    "isLValue": true,
+    "isPure": false,
+    "lValueRequested": false,
+    "nodeType": "IndexAccess",
+    "src": null,
+    "typeDescriptions": {
+      "typeIdentifier": "t_int256",
+      "typeString": "int256"
+    }
+  },
+  "nodeType": "VariableDeclarationStatement",
+  "src": null
+}

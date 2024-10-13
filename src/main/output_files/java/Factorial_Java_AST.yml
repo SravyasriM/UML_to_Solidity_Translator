@@ -1,0 +1,104 @@
+---
+root(Type=CompilationUnit):
+  types:
+    - type(Type=ClassOrInterfaceDeclaration):
+        isInterface: "false"
+        name(Type=SimpleName):
+          identifier: "Factorial"
+        members:
+          - member(Type=MethodDeclaration):
+              body(Type=BlockStmt):
+                statements:
+                  - statement(Type=IfStmt):
+                      condition(Type=BinaryExpr):
+                        operator: "LESS_EQUALS"
+                        left(Type=NameExpr):
+                          name(Type=SimpleName):
+                            identifier: "n"
+                        right(Type=IntegerLiteralExpr):
+                          value: "1"
+                      elseStmt(Type=BlockStmt):
+                        statements:
+                          - statement(Type=ReturnStmt):
+                              expression(Type=BinaryExpr):
+                                operator: "MULTIPLY"
+                                left(Type=NameExpr):
+                                  name(Type=SimpleName):
+                                    identifier: "n"
+                                right(Type=MethodCallExpr):
+                                  name(Type=SimpleName):
+                                    identifier: "fac"
+                                  arguments:
+                                    - argument(Type=BinaryExpr):
+                                        operator: "MINUS"
+                                        left(Type=NameExpr):
+                                          name(Type=SimpleName):
+                                            identifier: "n"
+                                        right(Type=IntegerLiteralExpr):
+                                          value: "1"
+                      thenStmt(Type=BlockStmt):
+                        statements:
+                          - statement(Type=ReturnStmt):
+                              expression(Type=IntegerLiteralExpr):
+                                value: "1"
+              type(Type=PrimitiveType):
+                type: "INT"
+              name(Type=SimpleName):
+                identifier: "fac"
+              modifiers:
+                - modifier(Type=Modifier):
+                    keyword: "PUBLIC"
+              parameters:
+                - parameter(Type=Parameter):
+                    isVarArgs: "false"
+                    name(Type=SimpleName):
+                      identifier: "n"
+                    type(Type=PrimitiveType):
+                      type: "INT"
+    - type(Type=ClassOrInterfaceDeclaration):
+        isInterface: "false"
+        name(Type=SimpleName):
+          identifier: "Main"
+        members:
+          - member(Type=MethodDeclaration):
+              body(Type=BlockStmt):
+                statements:
+                  - statement(Type=ExpressionStmt):
+                      expression(Type=VariableDeclarationExpr):
+                        variables:
+                          - variable(Type=VariableDeclarator):
+                              initializer(Type=ObjectCreationExpr):
+                                type(Type=ClassOrInterfaceType):
+                                  name(Type=SimpleName):
+                                    identifier: "Factorial"
+                              name(Type=SimpleName):
+                                identifier: "factorial"
+                              type(Type=ClassOrInterfaceType):
+                                name(Type=SimpleName):
+                                  identifier: "Factorial"
+                  - statement(Type=ExpressionStmt):
+                      expression(Type=VariableDeclarationExpr):
+                        variables:
+                          - variable(Type=VariableDeclarator):
+                              initializer(Type=MethodCallExpr):
+                                name(Type=SimpleName):
+                                  identifier: "fac"
+                                scope(Type=NameExpr):
+                                  name(Type=SimpleName):
+                                    identifier: "factorial"
+                                arguments:
+                                  - argument(Type=IntegerLiteralExpr):
+                                      value: "10"
+                              name(Type=SimpleName):
+                                identifier: "fac"
+                              type(Type=PrimitiveType):
+                                type: "INT"
+              type(Type=VoidType):
+              name(Type=SimpleName):
+                identifier: "main"
+              modifiers:
+                - modifier(Type=Modifier):
+                    keyword: "PUBLIC"
+                - modifier(Type=Modifier):
+                    keyword: "STATIC"
+...

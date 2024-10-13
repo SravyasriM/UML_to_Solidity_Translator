@@ -1,0 +1,17 @@
+{
+  "argumentTypes": null,
+  "id": null,
+  "isConstant": null,
+  "isLValue": null,
+  "isPure": null,
+  "lValueRequested": null,
+  "leftHandSide": null,
+  "nodeType": "Assignment",
+  "operator": null,
+  "rightHandSide": null,
+  "src": null,
+  "typeDescriptions": {
+    "typeIdentifier": null,
+    "typeString": null
+  }
+}

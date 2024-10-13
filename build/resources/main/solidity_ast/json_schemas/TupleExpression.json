@@ -1,0 +1,16 @@
+{
+  "argumentTypes": null,
+  "components": [],
+  "id": null,
+  "isConstant": null,
+  "isInlineArray": true,
+  "isLValue": null,
+  "isPure": null,
+  "lValueRequested": null,
+  "nodeType": "TupleExpression",
+  "src": null,
+  "typeDescriptions": {
+    "typeIdentifier": null,
+    "typeString": null
+  }
+}

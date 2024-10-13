@@ -1,0 +1,19 @@
+{
+  "argumentTypes": null,
+  "arguments": [],
+  "expression":null,
+  "id": null,
+  "isConstant": null,
+  "isLValue": null,
+  "isPure": null,
+  "kind": "functionCall",
+  "lValueRequested": null,
+  "names": [],
+  "nodeType": "FunctionCall",
+  "src": null,
+  "typeDescriptions":
+  {
+    "typeIdentifier": "t_tuple$__$",
+    "typeString": "tuple()"
+  }
+}

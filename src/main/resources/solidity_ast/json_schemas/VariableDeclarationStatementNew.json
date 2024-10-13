@@ -1,0 +1,135 @@
+{
+                "assignments":
+                [
+                  10
+                ],
+                "declarations":
+                [
+                  {
+                    "constant": false,
+                    "id": 10,
+                    "name": "x",
+                    "nodeType": "VariableDeclaration",
+                    "scope": 17,
+                    "src": "111:5:0",
+                    "stateVariable": false,
+                    "storageLocation": "default",
+                    "typeDescriptions":
+                    {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    },
+                    "typeName":
+                    {
+                      "id": 9,
+                      "name": "int",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "111:3:0",
+                      "typeDescriptions":
+                      {
+                        "typeIdentifier": "t_int256",
+                        "typeString": "int256"
+                      }
+                    },
+                    "value": null,
+                    "visibility": "internal"
+                  }
+                ],
+                "id": 16,
+                "initialValue":
+                {
+                  "argumentTypes": null,
+                  "arguments":
+                  [
+                    {
+                      "argumentTypes": null,
+                      "baseExpression":
+                      {
+                        "argumentTypes": null,
+                        "id": 12,
+                        "name": "param",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "123:5:0",
+                        "typeDescriptions":
+                        {
+                          "typeIdentifier": "t_array$_t_bytes32_$dyn_memory_ptr",
+                          "typeString": "bytes32[] memory"
+                        }
+                      },
+                      "id": 14,
+                      "indexExpression":
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "30",
+                        "id": 13,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "129:1:0",
+                        "subdenomination": null,
+                        "typeDescriptions":
+                        {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        },
+                        "value": "0"
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "123:8:0",
+                      "typeDescriptions":
+                      {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      }
+                    }
+                  ],
+                  "expression":
+                  {
+                    "argumentTypes":
+                    [
+                      {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      }
+                    ],
+                    "id": 11,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "lValueRequested": false,
+                    "nodeType": "ElementaryTypeNameExpression",
+                    "src": "119:3:0",
+                    "typeDescriptions":
+                    {
+                      "typeIdentifier": "t_type$_t_int256_$",
+                      "typeString": "type(int256)"
+                    },
+                    "typeName": "int"
+                  },
+                  "id": 15,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": false,
+                  "kind": "typeConversion",
+                  "lValueRequested": false,
+                  "names": [],
+                  "nodeType": "FunctionCall",
+                  "src": "119:13:0",
+                  "typeDescriptions":
+                  {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  }
+                },
+                "nodeType": "VariableDeclarationStatement",
+                "src": "111:21:0"
+}

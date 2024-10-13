@@ -1,0 +1,12 @@
+{
+  "a) Java program" : "D:\\UML_translator\\testing\\default\\ZakonKretanja.java",
+  "b) LOC Java (including comments)" : 9,
+  "c) LOC Java (excluding comments)" : 9,
+  "d) Java code parsing time (seconds)" : "0.00",
+  "e) AST to AST translation time (seconds)" : "0.00",
+  "f) AST to Solidity code generation time (seconds)" : "0.00",
+  "g) Memory usage (MB)" : "1.05",
+  "h) LOC Solidity (including comments)" : 17,
+  "i) LOC Solidity (excluding comments)" : 17,
+  "j) Fail %" : "0.00"
+}

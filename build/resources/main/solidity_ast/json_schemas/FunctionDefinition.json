@@ -1,0 +1,29 @@
+{
+  "body": null,
+  "documentation": null,
+  "id": null,
+  "implemented": null,
+  "kind": null,
+  "modifiers": [],
+  "name": null,
+  "nodeType": "FunctionDefinition",
+  "parameters": {
+    "id": null,
+    "nodeType": "ParameterList",
+    "parameters": [],
+    "src": null
+  },
+  "returnParameters": {
+    "id": null,
+    "nodeType": "ParameterList",
+    "parameters": [],
+    "src": null
+  },
+  "scope": null,
+  "src": null,
+  "overrides": null,
+  "stateMutability": "nonpayable",
+  "superFunction": null,
+  "visibility": null,
+  "comments": null
+}

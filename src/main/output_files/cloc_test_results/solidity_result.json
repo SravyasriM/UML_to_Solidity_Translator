@@ -1,0 +1,19 @@
+
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.74",
+  "elapsed_seconds"    : 0.0567350387573242,
+  "n_files"            : 1,
+  "n_lines"            : 3542,
+  "files_per_second"   : 17.6257921366257,
+  "lines_per_second"   : 62430.5557479283},
+"Solidity" :{
+  "nFiles": 1,
+  "blank": 421,
+  "comment": 1915,
+  "code": 1206},
+"SUM": {
+  "blank": 421,
+  "comment": 1915,
+  "code": 1206,
+  "nFiles": 1} }

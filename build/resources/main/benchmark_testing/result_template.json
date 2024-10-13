@@ -1,0 +1,12 @@
+{
+  "a) Java program": null,
+  "b) LOC Java (including comments)": null,
+  "c) LOC Java (excluding comments)": null,
+  "d) Java code parsing time (seconds)": null,
+  "e) AST to AST translation time (seconds)": null,
+  "f) AST to Solidity code generation time (seconds)": null,
+  "g) Memory usage (MB)": null,
+  "h) LOC Solidity (including comments)": null,
+  "i) LOC Solidity (excluding comments)": null,
+  "j) Fail %": null
+}

@@ -1,0 +1,18 @@
+{
+  "constant": null,
+  "id": null,
+  "name": null,
+  "nodeType": "VariableDeclaration",
+  "scope": null,
+  "src": null,
+  "stateVariable": null,
+  "storageLocation": "default",
+  "typeDescriptions": {
+    "typeIdentifier": null,
+    "typeString": null
+  },
+  "typeName": null,
+  "value": null,
+  "visibility": null,
+  "mutability": null
+}
